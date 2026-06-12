@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← All Countries" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e5]: ⚽
+      - heading "World Cup 2026" [level=1] [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: 🇫🇷
+      - generic [ref=e10]:
+        - heading "France" [level=2] [ref=e11]
+        - generic [ref=e12]: 🌍 Europe
+        - paragraph [ref=e13]: French cuisine is the foundation of modern cooking — refined technique, rich sauces and iconic bistro classics.
+    - tablist [ref=e14]:
+      - tab "🥗 Starter" [selected] [ref=e15] [cursor=pointer]
+      - tab "🍽️ Main" [ref=e16] [cursor=pointer]
+      - tab "🍮 Dessert" [ref=e17] [cursor=pointer]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: 🥗
+          - generic [ref=e23]: Loading image…
+        - img "Soupe à l'Oignon (French Onion Soup)"
+      - generic [ref=e24]:
+        - heading "Soupe à l'Oignon (French Onion Soup)" [level=3] [ref=e25]
+        - paragraph [ref=e26]: Slowly caramelised onions in beef broth, topped with a crouton and melted Gruyère.
+        - generic [ref=e27]:
+          - generic [ref=e28]: 👤 Serves 4
+          - generic [ref=e29]: "⏱️ Prep: 10 min"
+          - generic [ref=e30]: "🔥 Cook: 1 hr"
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Ingredients" [level=4] [ref=e33]
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - text: ·
+              - generic [ref=e36]: 1 kg
+              - generic [ref=e37]: white onions, thinly sliced
+            - listitem [ref=e38]:
+              - text: ·
+              - generic [ref=e39]: 60g
+              - generic [ref=e40]: unsalted butter
+            - listitem [ref=e41]:
+              - text: ·
+              - generic [ref=e42]: 1 tbsp
+              - generic [ref=e43]: olive oil
+            - listitem [ref=e44]:
+              - text: ·
+              - generic [ref=e45]: 1 tsp
+              - generic [ref=e46]: sugar
+            - listitem [ref=e47]:
+              - text: ·
+              - generic [ref=e48]: 3 cloves
+              - generic [ref=e49]: garlic, minced
+            - listitem [ref=e50]:
+              - text: ·
+              - generic [ref=e51]: 150 ml
+              - generic [ref=e52]: dry white wine
+            - listitem [ref=e53]:
+              - text: ·
+              - generic [ref=e54]: 1.2 L
+              - generic [ref=e55]: good beef stock
+            - listitem [ref=e56]:
+              - text: ·
+              - generic [ref=e57]: 4 slices
+              - generic [ref=e58]: baguette, toasted
+            - listitem [ref=e59]:
+              - text: ·
+              - generic [ref=e60]: 150g
+              - generic [ref=e61]: Gruyère, grated
+            - listitem [ref=e62]:
+              - text: ·
+              - generic [ref=e63]: "2"
+              - generic [ref=e64]: bay leaves
+            - listitem [ref=e65]:
+              - text: ·
+              - generic [ref=e66]: 1 tsp
+              - generic [ref=e67]: fresh thyme
+        - generic [ref=e68]:
+          - heading "Method" [level=4] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]: Melt butter with oil in a heavy pot over low heat. Add onions, bay leaves and thyme.
+            - listitem [ref=e72]: Cook on low for 40 minutes, stirring every 5 minutes, until deep golden-brown and caramelised. Add sugar halfway through.
+            - listitem [ref=e73]: Add garlic, cook 1 minute. Pour in wine and bubble for 3 minutes.
+            - listitem [ref=e74]: Add beef stock, season and simmer 20 minutes.
+            - listitem [ref=e75]: Ladle into oven-safe bowls. Place a baguette slice on top, pile with Gruyère.
+            - listitem [ref=e76]: Grill under a broiler until cheese is bubbling and golden. Serve immediately.
+      - link "Watch Soupe à l'Oignon (French Onion Soup) recipe on YouTube" [ref=e78] [cursor=pointer]:
+        - /url: https://www.youtube.com/results?search_query=classic+French+onion+soup+recipe
+        - img [ref=e80]
+        - generic [ref=e83]:
+          - generic [ref=e84]: Soupe à l'Oignon (French Onion Soup)
+          - generic [ref=e85]: Watch recipe video on YouTube →
+    - text: · · · · · · · · · · · · · · · · ·
+  - contentinfo [ref=e86]:
+    - paragraph [ref=e87]:
+      - text: ⚽ FIFA World Cup 2026 ·
+      - link "Back to all countries" [ref=e88] [cursor=pointer]:
+        - /url: index.html
+      - text: ⚽

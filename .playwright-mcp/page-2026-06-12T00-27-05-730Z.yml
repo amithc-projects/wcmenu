@@ -1,0 +1,462 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 🏆⚽🏆
+      - heading "World Cup 2026" [level=1] [ref=e5]
+      - paragraph [ref=e6]:
+        - text: A Culinary Journey Through
+        - strong [ref=e7]: 48 Nations
+      - paragraph [ref=e8]: Hosted by 🇺🇸 USA | 🇨🇦 Canada | 🇲🇽 Mexico
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - textbox "🔍 Search a country…" [ref=e12]:
+        - /placeholder: 🔍  Search a country…
+      - group "Filter by confederation" [ref=e13]:
+        - button "All 48" [ref=e14] [cursor=pointer]
+        - button "🌍 Europe" [ref=e15] [cursor=pointer]
+        - button "🌎 S. America" [ref=e16] [cursor=pointer]
+        - button "🌎 CONCACAF" [ref=e17] [cursor=pointer]
+        - button "🌍 Africa" [ref=e18] [cursor=pointer]
+        - button "🌏 Asia" [ref=e19] [cursor=pointer]
+        - button "🌏 Oceania" [ref=e20] [cursor=pointer]
+    - generic [ref=e21]:
+      - generic [ref=e22]: 48 countries
+      - generic [ref=e23]: "|"
+      - generic [ref=e24]: 144 recipes
+      - generic [ref=e25]: "|"
+      - generic [ref=e26]: 3-course menus
+    - generic [ref=e27]:
+      - link "🇩🇪 Germany 🌍 Europe 🥗 Linsensuppe 🍽️ Sauerbraten 🍮 Schwarzwälder Kirschtorte" [ref=e28] [cursor=pointer]:
+        - /url: country.html?id=germany
+        - generic [ref=e29]: 🇩🇪
+        - generic [ref=e30]: Germany
+        - generic [ref=e31]: 🌍 Europe
+        - generic [ref=e32]:
+          - generic [ref=e33]: 🥗 Linsensuppe
+          - generic [ref=e34]: 🍽️ Sauerbraten
+          - generic [ref=e35]: 🍮 Schwarzwälder Kirschtorte
+      - link "🇫🇷 France 🌍 Europe 🥗 Soupe à l'Oignon 🍽️ Boeuf Bourguignon 🍮 Crème Brûlée" [ref=e36] [cursor=pointer]:
+        - /url: country.html?id=france
+        - generic [ref=e37]: 🇫🇷
+        - generic [ref=e38]: France
+        - generic [ref=e39]: 🌍 Europe
+        - generic [ref=e40]:
+          - generic [ref=e41]: 🥗 Soupe à l'Oignon
+          - generic [ref=e42]: 🍽️ Boeuf Bourguignon
+          - generic [ref=e43]: 🍮 Crème Brûlée
+      - link "🇪🇸 Spain 🌍 Europe 🥗 Gazpacho Andaluz 🍽️ Paella Valenciana 🍮 Churros con Chocolate" [ref=e44] [cursor=pointer]:
+        - /url: country.html?id=spain
+        - generic [ref=e45]: 🇪🇸
+        - generic [ref=e46]: Spain
+        - generic [ref=e47]: 🌍 Europe
+        - generic [ref=e48]:
+          - generic [ref=e49]: 🥗 Gazpacho Andaluz
+          - generic [ref=e50]: 🍽️ Paella Valenciana
+          - generic [ref=e51]: 🍮 Churros con Chocolate
+      - link "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 🌍 Europe 🥗 Prawn Cocktail 🍽️ Roast Beef 🍮 Sticky Toffee Pudding" [ref=e52] [cursor=pointer]:
+        - /url: country.html?id=england
+        - generic [ref=e53]: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+        - generic [ref=e54]: England
+        - generic [ref=e55]: 🌍 Europe
+        - generic [ref=e56]:
+          - generic [ref=e57]: 🥗 Prawn Cocktail
+          - generic [ref=e58]: 🍽️ Roast Beef
+          - generic [ref=e59]: 🍮 Sticky Toffee Pudding
+      - link "🇵🇹 Portugal 🌍 Europe 🥗 Caldo Verde 🍽️ Bacalhau à Brás 🍮 Pastéis de Nata" [ref=e60] [cursor=pointer]:
+        - /url: country.html?id=portugal
+        - generic [ref=e61]: 🇵🇹
+        - generic [ref=e62]: Portugal
+        - generic [ref=e63]: 🌍 Europe
+        - generic [ref=e64]:
+          - generic [ref=e65]: 🥗 Caldo Verde
+          - generic [ref=e66]: 🍽️ Bacalhau à Brás
+          - generic [ref=e67]: 🍮 Pastéis de Nata
+      - link "🇳🇱 Netherlands 🌍 Europe 🥗 Erwtensoep 🍽️ Stamppot Boerenkool met Rookworst 🍮 Stroopwafel Ice Cream Sandwiches" [ref=e68] [cursor=pointer]:
+        - /url: country.html?id=netherlands
+        - generic [ref=e69]: 🇳🇱
+        - generic [ref=e70]: Netherlands
+        - generic [ref=e71]: 🌍 Europe
+        - generic [ref=e72]:
+          - generic [ref=e73]: 🥗 Erwtensoep
+          - generic [ref=e74]: 🍽️ Stamppot Boerenkool met Rookworst
+          - generic [ref=e75]: 🍮 Stroopwafel Ice Cream Sandwiches
+      - link "🇮🇹 Italy 🌍 Europe 🥗 Bruschetta al Pomodoro 🍽️ Ossobuco alla Milanese 🍮 Tiramisù" [ref=e76] [cursor=pointer]:
+        - /url: country.html?id=italy
+        - generic [ref=e77]: 🇮🇹
+        - generic [ref=e78]: Italy
+        - generic [ref=e79]: 🌍 Europe
+        - generic [ref=e80]:
+          - generic [ref=e81]: 🥗 Bruschetta al Pomodoro
+          - generic [ref=e82]: 🍽️ Ossobuco alla Milanese
+          - generic [ref=e83]: 🍮 Tiramisù
+      - link "🇧🇪 Belgium 🌍 Europe 🥗 Moules-Frites 🍽️ Carbonnade Flamande 🍮 Belgian Liège Waffles" [ref=e84] [cursor=pointer]:
+        - /url: country.html?id=belgium
+        - generic [ref=e85]: 🇧🇪
+        - generic [ref=e86]: Belgium
+        - generic [ref=e87]: 🌍 Europe
+        - generic [ref=e88]:
+          - generic [ref=e89]: 🥗 Moules-Frites
+          - generic [ref=e90]: 🍽️ Carbonnade Flamande
+          - generic [ref=e91]: 🍮 Belgian Liège Waffles
+      - link "🇭🇷 Croatia 🌍 Europe 🥗 Brudet 🍽️ Peka 🍮 Kremšnita" [ref=e92] [cursor=pointer]:
+        - /url: country.html?id=croatia
+        - generic [ref=e93]: 🇭🇷
+        - generic [ref=e94]: Croatia
+        - generic [ref=e95]: 🌍 Europe
+        - generic [ref=e96]:
+          - generic [ref=e97]: 🥗 Brudet
+          - generic [ref=e98]: 🍽️ Peka
+          - generic [ref=e99]: 🍮 Kremšnita
+      - link "🇹🇷 Turkey 🌍 Europe 🥗 Mercimek Çorbası 🍽️ Adana Kebabı 🍮 Baklava" [ref=e100] [cursor=pointer]:
+        - /url: country.html?id=turkey
+        - generic [ref=e101]: 🇹🇷
+        - generic [ref=e102]: Turkey
+        - generic [ref=e103]: 🌍 Europe
+        - generic [ref=e104]:
+          - generic [ref=e105]: 🥗 Mercimek Çorbası
+          - generic [ref=e106]: 🍽️ Adana Kebabı
+          - generic [ref=e107]: 🍮 Baklava
+      - link "🇷🇸 Serbia 🌍 Europe 🥗 Čorba od Povrća 🍽️ Ćevapčići 🍮 Krempita" [ref=e108] [cursor=pointer]:
+        - /url: country.html?id=serbia
+        - generic [ref=e109]: 🇷🇸
+        - generic [ref=e110]: Serbia
+        - generic [ref=e111]: 🌍 Europe
+        - generic [ref=e112]:
+          - generic [ref=e113]: 🥗 Čorba od Povrća
+          - generic [ref=e114]: 🍽️ Ćevapčići
+          - generic [ref=e115]: 🍮 Krempita
+      - link "🇵🇱 Poland 🌍 Europe 🥗 Żurek 🍽️ Bigos 🍮 Makowiec" [ref=e116] [cursor=pointer]:
+        - /url: country.html?id=poland
+        - generic [ref=e117]: 🇵🇱
+        - generic [ref=e118]: Poland
+        - generic [ref=e119]: 🌍 Europe
+        - generic [ref=e120]:
+          - generic [ref=e121]: 🥗 Żurek
+          - generic [ref=e122]: 🍽️ Bigos
+          - generic [ref=e123]: 🍮 Makowiec
+      - link "🇦🇹 Austria 🌍 Europe 🥗 Leberknödelsuppe 🍽️ Wiener Schnitzel 🍮 Sachertorte" [ref=e124] [cursor=pointer]:
+        - /url: country.html?id=austria
+        - generic [ref=e125]: 🇦🇹
+        - generic [ref=e126]: Austria
+        - generic [ref=e127]: 🌍 Europe
+        - generic [ref=e128]:
+          - generic [ref=e129]: 🥗 Leberknödelsuppe
+          - generic [ref=e130]: 🍽️ Wiener Schnitzel
+          - generic [ref=e131]: 🍮 Sachertorte
+      - link "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 🌍 Europe 🥗 Cock-a-Leekie Soup 🍽️ Haggis, Neeps & Tatties 🍮 Cranachan" [ref=e132] [cursor=pointer]:
+        - /url: country.html?id=scotland
+        - generic [ref=e133]: 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+        - generic [ref=e134]: Scotland
+        - generic [ref=e135]: 🌍 Europe
+        - generic [ref=e136]:
+          - generic [ref=e137]: 🥗 Cock-a-Leekie Soup
+          - generic [ref=e138]: 🍽️ Haggis, Neeps & Tatties
+          - generic [ref=e139]: 🍮 Cranachan
+      - link "🇩🇰 Denmark 🌍 Europe 🥗 Fiskesuppe 🍽️ Frikadeller 🍮 Æbleskiver" [ref=e140] [cursor=pointer]:
+        - /url: country.html?id=denmark
+        - generic [ref=e141]: 🇩🇰
+        - generic [ref=e142]: Denmark
+        - generic [ref=e143]: 🌍 Europe
+        - generic [ref=e144]:
+          - generic [ref=e145]: 🥗 Fiskesuppe
+          - generic [ref=e146]: 🍽️ Frikadeller
+          - generic [ref=e147]: 🍮 Æbleskiver
+      - link "🇭🇺 Hungary 🌍 Europe 🥗 Gulyásleves 🍽️ Pörkölt 🍮 Dobos Torte" [ref=e148] [cursor=pointer]:
+        - /url: country.html?id=hungary
+        - generic [ref=e149]: 🇭🇺
+        - generic [ref=e150]: Hungary
+        - generic [ref=e151]: 🌍 Europe
+        - generic [ref=e152]:
+          - generic [ref=e153]: 🥗 Gulyásleves
+          - generic [ref=e154]: 🍽️ Pörkölt
+          - generic [ref=e155]: 🍮 Dobos Torte
+      - link "🇦🇷 Argentina 🌎 South America 🥗 Empanadas Salteñas 🍽️ Asado — Argentine Mixed Grill 🍮 Alfajores de Maicena" [ref=e156] [cursor=pointer]:
+        - /url: country.html?id=argentina
+        - generic [ref=e157]: 🇦🇷
+        - generic [ref=e158]: Argentina
+        - generic [ref=e159]: 🌎 South America
+        - generic [ref=e160]:
+          - generic [ref=e161]: 🥗 Empanadas Salteñas
+          - generic [ref=e162]: 🍽️ Asado — Argentine Mixed Grill
+          - generic [ref=e163]: 🍮 Alfajores de Maicena
+      - link "🇧🇷 Brazil 🌎 South America 🥗 Coxinha 🍽️ Feijoada 🍮 Brigadeiro" [ref=e164] [cursor=pointer]:
+        - /url: country.html?id=brazil
+        - generic [ref=e165]: 🇧🇷
+        - generic [ref=e166]: Brazil
+        - generic [ref=e167]: 🌎 South America
+        - generic [ref=e168]:
+          - generic [ref=e169]: 🥗 Coxinha
+          - generic [ref=e170]: 🍽️ Feijoada
+          - generic [ref=e171]: 🍮 Brigadeiro
+      - link "🇺🇾 Uruguay 🌎 South America 🥗 Tortilla Española Uruguaya 🍽️ Chivito 🍮 Torta Frita" [ref=e172] [cursor=pointer]:
+        - /url: country.html?id=uruguay
+        - generic [ref=e173]: 🇺🇾
+        - generic [ref=e174]: Uruguay
+        - generic [ref=e175]: 🌎 South America
+        - generic [ref=e176]:
+          - generic [ref=e177]: 🥗 Tortilla Española Uruguaya
+          - generic [ref=e178]: 🍽️ Chivito
+          - generic [ref=e179]: 🍮 Torta Frita
+      - link "🇨🇴 Colombia 🌎 South America 🥗 Ajiaco Bogotano 🍽️ Bandeja Paisa 🍮 Buñuelos Colombianos" [ref=e180] [cursor=pointer]:
+        - /url: country.html?id=colombia
+        - generic [ref=e181]: 🇨🇴
+        - generic [ref=e182]: Colombia
+        - generic [ref=e183]: 🌎 South America
+        - generic [ref=e184]:
+          - generic [ref=e185]: 🥗 Ajiaco Bogotano
+          - generic [ref=e186]: 🍽️ Bandeja Paisa
+          - generic [ref=e187]: 🍮 Buñuelos Colombianos
+      - link "🇪🇨 Ecuador 🌎 South America 🥗 Locro de Papa 🍽️ Seco de Pollo 🍮 Espumillas de Guayaba" [ref=e188] [cursor=pointer]:
+        - /url: country.html?id=ecuador
+        - generic [ref=e189]: 🇪🇨
+        - generic [ref=e190]: Ecuador
+        - generic [ref=e191]: 🌎 South America
+        - generic [ref=e192]:
+          - generic [ref=e193]: 🥗 Locro de Papa
+          - generic [ref=e194]: 🍽️ Seco de Pollo
+          - generic [ref=e195]: 🍮 Espumillas de Guayaba
+      - link "🇵🇾 Paraguay 🌎 South America 🥗 Sopa Paraguaya 🍽️ Chipa Guasú 🍮 Kivevé" [ref=e196] [cursor=pointer]:
+        - /url: country.html?id=paraguay
+        - generic [ref=e197]: 🇵🇾
+        - generic [ref=e198]: Paraguay
+        - generic [ref=e199]: 🌎 South America
+        - generic [ref=e200]:
+          - generic [ref=e201]: 🥗 Sopa Paraguaya
+          - generic [ref=e202]: 🍽️ Chipa Guasú
+          - generic [ref=e203]: 🍮 Kivevé
+      - link "🇺🇸 United States 🌎 CONCACAF 🥗 New England Clam Chowder 🍽️ Southern BBQ Ribs 🍮 Classic American Apple Pie" [ref=e204] [cursor=pointer]:
+        - /url: country.html?id=usa
+        - generic [ref=e205]: 🇺🇸
+        - generic [ref=e206]: United States
+        - generic [ref=e207]: 🌎 CONCACAF
+        - generic [ref=e208]:
+          - generic [ref=e209]: 🥗 New England Clam Chowder
+          - generic [ref=e210]: 🍽️ Southern BBQ Ribs
+          - generic [ref=e211]: 🍮 Classic American Apple Pie
+      - link "🇨🇦 Canada 🌎 CONCACAF 🥗 Poutine 🍽️ Cedar Plank Salmon 🍮 Butter Tarts" [ref=e212] [cursor=pointer]:
+        - /url: country.html?id=canada
+        - generic [ref=e213]: 🇨🇦
+        - generic [ref=e214]: Canada
+        - generic [ref=e215]: 🌎 CONCACAF
+        - generic [ref=e216]:
+          - generic [ref=e217]: 🥗 Poutine
+          - generic [ref=e218]: 🍽️ Cedar Plank Salmon
+          - generic [ref=e219]: 🍮 Butter Tarts
+      - link "🇲🇽 Mexico 🌎 CONCACAF 🥗 Guacamole con Totopos 🍽️ Mole Poblano con Pollo 🍮 Pastel Tres Leches" [ref=e220] [cursor=pointer]:
+        - /url: country.html?id=mexico
+        - generic [ref=e221]: 🇲🇽
+        - generic [ref=e222]: Mexico
+        - generic [ref=e223]: 🌎 CONCACAF
+        - generic [ref=e224]:
+          - generic [ref=e225]: 🥗 Guacamole con Totopos
+          - generic [ref=e226]: 🍽️ Mole Poblano con Pollo
+          - generic [ref=e227]: 🍮 Pastel Tres Leches
+      - link "🇵🇦 Panama 🌎 CONCACAF 🥗 Ceviche Panameño 🍽️ Sancocho de Gallina 🍮 Arroz con Leche" [ref=e228] [cursor=pointer]:
+        - /url: country.html?id=panama
+        - generic [ref=e229]: 🇵🇦
+        - generic [ref=e230]: Panama
+        - generic [ref=e231]: 🌎 CONCACAF
+        - generic [ref=e232]:
+          - generic [ref=e233]: 🥗 Ceviche Panameño
+          - generic [ref=e234]: 🍽️ Sancocho de Gallina
+          - generic [ref=e235]: 🍮 Arroz con Leche
+      - link "🇨🇷 Costa Rica 🌎 CONCACAF 🥗 Gallo Pinto 🍽️ Casado 🍮 Tres Leches con Cajeta" [ref=e236] [cursor=pointer]:
+        - /url: country.html?id=costa-rica
+        - generic [ref=e237]: 🇨🇷
+        - generic [ref=e238]: Costa Rica
+        - generic [ref=e239]: 🌎 CONCACAF
+        - generic [ref=e240]:
+          - generic [ref=e241]: 🥗 Gallo Pinto
+          - generic [ref=e242]: 🍽️ Casado
+          - generic [ref=e243]: 🍮 Tres Leches con Cajeta
+      - link "🇯🇲 Jamaica 🌎 CONCACAF 🥗 Ackee & Saltfish 🍽️ Jerk Chicken 🍮 Jamaican Rum Cake" [ref=e244] [cursor=pointer]:
+        - /url: country.html?id=jamaica
+        - generic [ref=e245]: 🇯🇲
+        - generic [ref=e246]: Jamaica
+        - generic [ref=e247]: 🌎 CONCACAF
+        - generic [ref=e248]:
+          - generic [ref=e249]: 🥗 Ackee & Saltfish
+          - generic [ref=e250]: 🍽️ Jerk Chicken
+          - generic [ref=e251]: 🍮 Jamaican Rum Cake
+      - link "🇻🇪 Venezuela 🌎 South America 🥗 Tequeños 🍽️ Pabellón Criollo 🍮 Quesillo" [ref=e252] [cursor=pointer]:
+        - /url: country.html?id=venezuela
+        - generic [ref=e253]: 🇻🇪
+        - generic [ref=e254]: Venezuela
+        - generic [ref=e255]: 🌎 South America
+        - generic [ref=e256]:
+          - generic [ref=e257]: 🥗 Tequeños
+          - generic [ref=e258]: 🍽️ Pabellón Criollo
+          - generic [ref=e259]: 🍮 Quesillo
+      - link "🇨🇱 Chile 🌎 South America 🥗 Pan Amasado with Pebre 🍽️ Cazuela de Vacuno 🍮 Leche Asada" [ref=e260] [cursor=pointer]:
+        - /url: country.html?id=chile
+        - generic [ref=e261]: 🇨🇱
+        - generic [ref=e262]: Chile
+        - generic [ref=e263]: 🌎 South America
+        - generic [ref=e264]:
+          - generic [ref=e265]: 🥗 Pan Amasado with Pebre
+          - generic [ref=e266]: 🍽️ Cazuela de Vacuno
+          - generic [ref=e267]: 🍮 Leche Asada
+      - link "🇲🇦 Morocco 🌍 Africa 🥗 Harira 🍽️ Lamb Tagine 🍮 Bastilla au Lait" [ref=e268] [cursor=pointer]:
+        - /url: country.html?id=morocco
+        - generic [ref=e269]: 🇲🇦
+        - generic [ref=e270]: Morocco
+        - generic [ref=e271]: 🌍 Africa
+        - generic [ref=e272]:
+          - generic [ref=e273]: 🥗 Harira
+          - generic [ref=e274]: 🍽️ Lamb Tagine
+          - generic [ref=e275]: 🍮 Bastilla au Lait
+      - link "🇸🇳 Senegal 🌍 Africa 🥗 Accara 🍽️ Thiéboudienne 🍮 Thiakry" [ref=e276] [cursor=pointer]:
+        - /url: country.html?id=senegal
+        - generic [ref=e277]: 🇸🇳
+        - generic [ref=e278]: Senegal
+        - generic [ref=e279]: 🌍 Africa
+        - generic [ref=e280]:
+          - generic [ref=e281]: 🥗 Accara
+          - generic [ref=e282]: 🍽️ Thiéboudienne
+          - generic [ref=e283]: 🍮 Thiakry
+      - link "🇳🇬 Nigeria 🌍 Africa 🥗 Nigerian Pepper Soup 🍽️ Jollof Rice 🍮 Puff Puff" [ref=e284] [cursor=pointer]:
+        - /url: country.html?id=nigeria
+        - generic [ref=e285]: 🇳🇬
+        - generic [ref=e286]: Nigeria
+        - generic [ref=e287]: 🌍 Africa
+        - generic [ref=e288]:
+          - generic [ref=e289]: 🥗 Nigerian Pepper Soup
+          - generic [ref=e290]: 🍽️ Jollof Rice
+          - generic [ref=e291]: 🍮 Puff Puff
+      - link "🇨🇮 Ivory Coast 🌍 Africa 🥗 Kedjenou de Poulet 🍽️ Attiéké 🍮 Alloco with Vanilla Ice Cream" [ref=e292] [cursor=pointer]:
+        - /url: country.html?id=ivory-coast
+        - generic [ref=e293]: 🇨🇮
+        - generic [ref=e294]: Ivory Coast
+        - generic [ref=e295]: 🌍 Africa
+        - generic [ref=e296]:
+          - generic [ref=e297]: 🥗 Kedjenou de Poulet
+          - generic [ref=e298]: 🍽️ Attiéké
+          - generic [ref=e299]: 🍮 Alloco with Vanilla Ice Cream
+      - link "🇪🇬 Egypt 🌍 Africa 🥗 Ful Medames 🍽️ Koshari 🍮 Om Ali" [ref=e300] [cursor=pointer]:
+        - /url: country.html?id=egypt
+        - generic [ref=e301]: 🇪🇬
+        - generic [ref=e302]: Egypt
+        - generic [ref=e303]: 🌍 Africa
+        - generic [ref=e304]:
+          - generic [ref=e305]: 🥗 Ful Medames
+          - generic [ref=e306]: 🍽️ Koshari
+          - generic [ref=e307]: 🍮 Om Ali
+      - link "🇿🇦 South Africa 🌍 Africa 🥗 Boerewors Rolls 🍽️ Braai Lamb Chops 🍮 Melktert" [ref=e308] [cursor=pointer]:
+        - /url: country.html?id=south-africa
+        - generic [ref=e309]: 🇿🇦
+        - generic [ref=e310]: South Africa
+        - generic [ref=e311]: 🌍 Africa
+        - generic [ref=e312]:
+          - generic [ref=e313]: 🥗 Boerewors Rolls
+          - generic [ref=e314]: 🍽️ Braai Lamb Chops
+          - generic [ref=e315]: 🍮 Melktert
+      - link "🇨🇲 Cameroon 🌍 Africa 🥗 Beignets de Plantain 🍽️ Ndolé 🍮 Beignets au Miel" [ref=e316] [cursor=pointer]:
+        - /url: country.html?id=cameroon
+        - generic [ref=e317]: 🇨🇲
+        - generic [ref=e318]: Cameroon
+        - generic [ref=e319]: 🌍 Africa
+        - generic [ref=e320]:
+          - generic [ref=e321]: 🥗 Beignets de Plantain
+          - generic [ref=e322]: 🍽️ Ndolé
+          - generic [ref=e323]: 🍮 Beignets au Miel
+      - link "🇹🇳 Tunisia 🌍 Africa 🥗 Brik à l'Oeuf 🍽️ Couscous à l'Agneau 🍮 Makroudh" [ref=e324] [cursor=pointer]:
+        - /url: country.html?id=tunisia
+        - generic [ref=e325]: 🇹🇳
+        - generic [ref=e326]: Tunisia
+        - generic [ref=e327]: 🌍 Africa
+        - generic [ref=e328]:
+          - generic [ref=e329]: 🥗 Brik à l'Oeuf
+          - generic [ref=e330]: 🍽️ Couscous à l'Agneau
+          - generic [ref=e331]: 🍮 Makroudh
+      - link "🇩🇿 Algeria 🌍 Africa 🥗 Chorba Frik 🍽️ Chakhchoukha 🍮 Zlabia" [ref=e332] [cursor=pointer]:
+        - /url: country.html?id=algeria
+        - generic [ref=e333]: 🇩🇿
+        - generic [ref=e334]: Algeria
+        - generic [ref=e335]: 🌍 Africa
+        - generic [ref=e336]:
+          - generic [ref=e337]: 🥗 Chorba Frik
+          - generic [ref=e338]: 🍽️ Chakhchoukha
+          - generic [ref=e339]: 🍮 Zlabia
+      - link "🇯🇵 Japan 🌏 Asia 🥗 Miso Soup with Tofu & Wakame 🍽️ Tonkotsu Ramen 🍮 Matcha Mochi Ice Cream" [ref=e340] [cursor=pointer]:
+        - /url: country.html?id=japan
+        - generic [ref=e341]: 🇯🇵
+        - generic [ref=e342]: Japan
+        - generic [ref=e343]: 🌏 Asia
+        - generic [ref=e344]:
+          - generic [ref=e345]: 🥗 Miso Soup with Tofu & Wakame
+          - generic [ref=e346]: 🍽️ Tonkotsu Ramen
+          - generic [ref=e347]: 🍮 Matcha Mochi Ice Cream
+      - link "🇰🇷 South Korea 🌏 Asia 🥗 Haemul Pajeon 🍽️ Bibimbap 🍮 Bingsu" [ref=e348] [cursor=pointer]:
+        - /url: country.html?id=south-korea
+        - generic [ref=e349]: 🇰🇷
+        - generic [ref=e350]: South Korea
+        - generic [ref=e351]: 🌏 Asia
+        - generic [ref=e352]:
+          - generic [ref=e353]: 🥗 Haemul Pajeon
+          - generic [ref=e354]: 🍽️ Bibimbap
+          - generic [ref=e355]: 🍮 Bingsu
+      - link "🇦🇺 Australia 🌏 Asia 🥗 Grilled Barramundi Bites with Aioli 🍽️ Lamb Cutlets 🍮 Lamingtons" [ref=e356] [cursor=pointer]:
+        - /url: country.html?id=australia
+        - generic [ref=e357]: 🇦🇺
+        - generic [ref=e358]: Australia
+        - generic [ref=e359]: 🌏 Asia
+        - generic [ref=e360]:
+          - generic [ref=e361]: 🥗 Grilled Barramundi Bites with Aioli
+          - generic [ref=e362]: 🍽️ Lamb Cutlets
+          - generic [ref=e363]: 🍮 Lamingtons
+      - link "🇸🇦 Saudi Arabia 🌏 Asia 🥗 Mutabbaq 🍽️ Kabsa 🍮 Luqaimat" [ref=e364] [cursor=pointer]:
+        - /url: country.html?id=saudi-arabia
+        - generic [ref=e365]: 🇸🇦
+        - generic [ref=e366]: Saudi Arabia
+        - generic [ref=e367]: 🌏 Asia
+        - generic [ref=e368]:
+          - generic [ref=e369]: 🥗 Mutabbaq
+          - generic [ref=e370]: 🍽️ Kabsa
+          - generic [ref=e371]: 🍮 Luqaimat
+      - link "🇮🇷 Iran 🌏 Asia 🥗 Ash Reshteh 🍽️ Ghormeh Sabzi 🍮 Sholeh Zard" [ref=e372] [cursor=pointer]:
+        - /url: country.html?id=iran
+        - generic [ref=e373]: 🇮🇷
+        - generic [ref=e374]: Iran
+        - generic [ref=e375]: 🌏 Asia
+        - generic [ref=e376]:
+          - generic [ref=e377]: 🥗 Ash Reshteh
+          - generic [ref=e378]: 🍽️ Ghormeh Sabzi
+          - generic [ref=e379]: 🍮 Sholeh Zard
+      - link "🇶🇦 Qatar 🌏 Asia 🥗 Thareed 🍽️ Machboos 🍮 Balaleet" [ref=e380] [cursor=pointer]:
+        - /url: country.html?id=qatar
+        - generic [ref=e381]: 🇶🇦
+        - generic [ref=e382]: Qatar
+        - generic [ref=e383]: 🌏 Asia
+        - generic [ref=e384]:
+          - generic [ref=e385]: 🥗 Thareed
+          - generic [ref=e386]: 🍽️ Machboos
+          - generic [ref=e387]: 🍮 Balaleet
+      - link "🇮🇩 Indonesia 🌏 Asia 🥗 Gado-Gado 🍽️ Beef Rendang 🍮 Es Cendol" [ref=e388] [cursor=pointer]:
+        - /url: country.html?id=indonesia
+        - generic [ref=e389]: 🇮🇩
+        - generic [ref=e390]: Indonesia
+        - generic [ref=e391]: 🌏 Asia
+        - generic [ref=e392]:
+          - generic [ref=e393]: 🥗 Gado-Gado
+          - generic [ref=e394]: 🍽️ Beef Rendang
+          - generic [ref=e395]: 🍮 Es Cendol
+      - link "🇨🇳 China 🌏 Asia 🥗 Hot and Sour Soup 🍽️ Peking Duck 🍮 Tanghulu" [ref=e396] [cursor=pointer]:
+        - /url: country.html?id=china
+        - generic [ref=e397]: 🇨🇳
+        - generic [ref=e398]: China
+        - generic [ref=e399]: 🌏 Asia
+        - generic [ref=e400]:
+          - generic [ref=e401]: 🥗 Hot and Sour Soup
+          - generic [ref=e402]: 🍽️ Peking Duck
+          - generic [ref=e403]: 🍮 Tanghulu
+      - link "🇳🇿 New Zealand 🌏 Oceania 🥗 Whitebait Fritters 🍽️ Hāngī 🍮 Pavlova" [ref=e404] [cursor=pointer]:
+        - /url: country.html?id=new-zealand
+        - generic [ref=e405]: 🇳🇿
+        - generic [ref=e406]: New Zealand
+        - generic [ref=e407]: 🌏 Oceania
+        - generic [ref=e408]:
+          - generic [ref=e409]: 🥗 Whitebait Fritters
+          - generic [ref=e410]: 🍽️ Hāngī
+          - generic [ref=e411]: 🍮 Pavlova
+  - contentinfo [ref=e412]:
+    - paragraph [ref=e413]: ⚽ FIFA World Cup 2026 · June – July 2026 · Celebrating food & football ⚽

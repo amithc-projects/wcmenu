@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← All Countries" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e5]: ⚽
+      - heading "World Cup 2026" [level=1] [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: 🇧🇷
+      - generic [ref=e10]:
+        - heading "Brazil" [level=2] [ref=e11]
+        - generic [ref=e12]: 🌎 South America
+        - paragraph [ref=e13]: Brazilian food is bold, colourful and deeply rooted in African, Indigenous and Portuguese traditions.
+    - tablist [ref=e14]:
+      - tab "🥗 Starter" [selected] [ref=e15] [cursor=pointer]
+      - tab "🍽️ Main" [ref=e16] [cursor=pointer]
+      - tab "🍮 Dessert" [ref=e17] [cursor=pointer]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: 🥗
+          - generic [ref=e23]: Loading image…
+        - img "Coxinha (Chicken Croquettes)"
+      - generic [ref=e24]:
+        - heading "Coxinha (Chicken Croquettes)" [level=3] [ref=e25]
+        - paragraph [ref=e26]: Teardrop-shaped fried croquettes filled with creamy shredded chicken and catupiry cheese.
+        - generic [ref=e27]:
+          - generic [ref=e28]: 👤 Serves 20
+          - generic [ref=e29]: "⏱️ Prep: 50 min"
+          - generic [ref=e30]: "🔥 Cook: 20 min"
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Ingredients" [level=4] [ref=e33]
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - text: ·
+              - generic [ref=e36]: 500g
+              - generic [ref=e37]: chicken breast, poached and shredded
+            - listitem [ref=e38]:
+              - text: ·
+              - generic [ref=e39]: 200g
+              - generic [ref=e40]: cream cheese or catupiry
+            - listitem [ref=e41]:
+              - text: ·
+              - generic [ref=e42]: "1"
+              - generic [ref=e43]: onion, finely diced
+            - listitem [ref=e44]:
+              - text: ·
+              - generic [ref=e45]: 3 cloves
+              - generic [ref=e46]: garlic, minced
+            - listitem [ref=e47]:
+              - text: ·
+              - generic [ref=e48]: 1 tsp
+              - generic [ref=e49]: sweet paprika
+            - listitem [ref=e50]:
+              - text: ·
+              - generic [ref=e51]: 500g
+              - generic [ref=e52]: plain flour
+            - listitem [ref=e53]:
+              - text: ·
+              - generic [ref=e54]: 1 L
+              - generic [ref=e55]: chicken stock
+            - listitem [ref=e56]:
+              - text: ·
+              - generic [ref=e57]: 2 tbsp
+              - generic [ref=e58]: butter
+            - listitem [ref=e59]:
+              - text: ·
+              - generic [ref=e60]: breadcrumbs
+              - generic [ref=e61]: for coating
+            - listitem [ref=e62]:
+              - text: ·
+              - generic [ref=e63]: "2"
+              - generic [ref=e64]: eggs, beaten
+            - listitem [ref=e65]:
+              - text: ·
+              - generic [ref=e66]: oil
+              - generic [ref=e67]: for deep frying
+        - generic [ref=e68]:
+          - heading "Method" [level=4] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]: Sauté onion and garlic in butter. Add shredded chicken and paprika. Season well. Cool.
+            - listitem [ref=e72]: Mix in cream cheese to make a creamy filling.
+            - listitem [ref=e73]: "For the dough: bring stock and butter to a boil. Add flour all at once, stir vigorously until a dough forms. Cook 2 minutes."
+            - listitem [ref=e74]: Cool dough slightly. Take a ball of dough, flatten in your palm, place a spoonful of filling in the centre.
+            - listitem [ref=e75]: Close around the filling, shape into a teardrop.
+            - listitem [ref=e76]: Dip in beaten egg, roll in breadcrumbs. Fry at 180°C for 3–4 minutes until golden.
+      - link "Watch Coxinha (Chicken Croquettes) recipe on YouTube" [ref=e78] [cursor=pointer]:
+        - /url: https://www.youtube.com/results?search_query=Coxinha+recipe+Brazilian+chicken+croquette
+        - img [ref=e80]
+        - generic [ref=e83]:
+          - generic [ref=e84]: Coxinha (Chicken Croquettes)
+          - generic [ref=e85]: Watch recipe video on YouTube →
+    - text: · · · · · · · · · · · · · · · ·
+  - contentinfo [ref=e86]:
+    - paragraph [ref=e87]:
+      - text: ⚽ FIFA World Cup 2026 ·
+      - link "Back to all countries" [ref=e88] [cursor=pointer]:
+        - /url: index.html
+      - text: ⚽

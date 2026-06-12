@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← All Countries" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e5]: ⚽
+      - heading "World Cup 2026" [level=1] [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: 🇩🇪
+      - generic [ref=e10]:
+        - heading "Germany" [level=2] [ref=e11]
+        - generic [ref=e12]: 🌍 Europe
+        - paragraph [ref=e13]: German cuisine is hearty and comforting — slow-braised meats, warming soups, and legendary cakes.
+    - tablist [ref=e14]:
+      - tab "🥗 Starter" [selected] [ref=e15] [cursor=pointer]
+      - tab "🍽️ Main" [ref=e16] [cursor=pointer]
+      - tab "🍮 Dessert" [ref=e17] [cursor=pointer]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic:
+          - generic: 🥗
+          - generic: Loading image…
+        - img "Linsensuppe (Lentil Soup)" [ref=e21]
+      - generic [ref=e22]:
+        - heading "Linsensuppe (Lentil Soup)" [level=3] [ref=e23]
+        - paragraph [ref=e24]: A smoky, warming lentil soup with root vegetables and frankfurter sausage.
+        - generic [ref=e25]:
+          - generic [ref=e26]: 👤 Serves 4
+          - generic [ref=e27]: "⏱️ Prep: 15 min"
+          - generic [ref=e28]: "🔥 Cook: 45 min"
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "Ingredients" [level=4] [ref=e31]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - text: ·
+              - generic [ref=e34]: 300g
+              - generic [ref=e35]: green or brown lentils, rinsed
+            - listitem [ref=e36]:
+              - text: ·
+              - generic [ref=e37]: "2"
+              - generic [ref=e38]: frankfurter sausages, sliced
+            - listitem [ref=e39]:
+              - text: ·
+              - generic [ref=e40]: "2"
+              - generic [ref=e41]: carrots, diced
+            - listitem [ref=e42]:
+              - text: ·
+              - generic [ref=e43]: "2"
+              - generic [ref=e44]: celery stalks, diced
+            - listitem [ref=e45]:
+              - text: ·
+              - generic [ref=e46]: "1"
+              - generic [ref=e47]: large onion, diced
+            - listitem [ref=e48]:
+              - text: ·
+              - generic [ref=e49]: 2 cloves
+              - generic [ref=e50]: garlic, minced
+            - listitem [ref=e51]:
+              - text: ·
+              - generic [ref=e52]: 1.2 L
+              - generic [ref=e53]: vegetable stock
+            - listitem [ref=e54]:
+              - text: ·
+              - generic [ref=e55]: 2 tbsp
+              - generic [ref=e56]: white wine vinegar
+            - listitem [ref=e57]:
+              - text: ·
+              - generic [ref=e58]: 1 tsp
+              - generic [ref=e59]: marjoram
+            - listitem [ref=e60]:
+              - text: ·
+              - generic [ref=e61]: 2 tbsp
+              - generic [ref=e62]: olive oil
+            - listitem [ref=e63]:
+              - text: ·
+              - generic [ref=e64]: to taste
+              - generic [ref=e65]: salt and black pepper
+        - generic [ref=e66]:
+          - heading "Method" [level=4] [ref=e67]
+          - list [ref=e68]:
+            - listitem [ref=e69]: Heat olive oil in a large pot over medium heat. Sauté onion, carrots and celery for 5 minutes until softened.
+            - listitem [ref=e70]: Add garlic and marjoram, cook 1 minute until fragrant.
+            - listitem [ref=e71]: Add lentils and stock. Bring to a boil, then reduce heat and simmer 30 minutes until lentils are tender.
+            - listitem [ref=e72]: Stir in sliced frankfurters and simmer 5 more minutes.
+            - listitem [ref=e73]: Add white wine vinegar, season with salt and pepper.
+            - listitem [ref=e74]: Serve hot with crusty bread.
+      - link "Watch Linsensuppe (Lentil Soup) recipe on YouTube" [ref=e76] [cursor=pointer]:
+        - /url: https://www.youtube.com/results?search_query=German+Linsensuppe+lentil+soup+recipe
+        - img [ref=e78]
+        - generic [ref=e81]:
+          - generic [ref=e82]: Linsensuppe (Lentil Soup)
+          - generic [ref=e83]: Watch recipe video on YouTube →
+    - text: · · · · · · · · · · · · · · · · · · · · · ·
+  - contentinfo [ref=e84]:
+    - paragraph [ref=e85]:
+      - text: ⚽ FIFA World Cup 2026 ·
+      - link "Back to all countries" [ref=e86] [cursor=pointer]:
+        - /url: index.html
+      - text: ⚽

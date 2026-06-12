@@ -1,0 +1,4 @@
+# Pure static site — no build step, files served straight from the repo root.
+[build]
+  publish = "."
+  command = ""
