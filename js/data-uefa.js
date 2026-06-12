@@ -89,6 +89,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "france", name: "France", flag: "🇫🇷", confederation: "UEFA",
     intro: "French cuisine is the foundation of modern cooking — refined technique, rich sauces and iconic bistro classics.",
@@ -172,6 +173,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "spain", name: "Spain", flag: "🇪🇸", confederation: "UEFA",
     intro: "Spanish food celebrates bold flavours, fresh produce and the joy of sharing — from cold gazpacho to slow-cooked rice.",
@@ -257,6 +259,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "england", name: "England", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", confederation: "UEFA",
     intro: "English cuisine balances pub classics with Sunday roast traditions and indulgent steamed puddings.",
@@ -343,6 +346,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "portugal", name: "Portugal", flag: "🇵🇹", confederation: "UEFA",
     intro: "Portuguese cuisine is built on salt cod, seafood, olive oil and a love of custard pastries.",
@@ -425,6 +429,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "netherlands", name: "Netherlands", flag: "🇳🇱", confederation: "UEFA",
     intro: "Dutch cooking is honest and filling — split-pea soups, potato-based mashes and buttery stroopwafels.",
@@ -502,90 +507,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
-  {
-    id: "italy", name: "Italy", flag: "🇮🇹", confederation: "UEFA",
-    intro: "Italian cooking turns a handful of perfect ingredients into unforgettable dishes — from rustic Roman pasta to delicate Milanese classics.",
-    menu: {
-      starter: {
-        name: "Bruschetta al Pomodoro",
-        description: "Toasted bread rubbed with garlic, topped with marinated ripe tomatoes and fresh basil.",
-        servings: 4, prepTime: "15 min", cookTime: "5 min",
-        ingredients: [
-          {amount:"8 slices", item:"sourdough or ciabatta"},
-          {amount:"500g", item:"ripe vine tomatoes, finely chopped"},
-          {amount:"2 cloves", item:"garlic (1 minced, 1 halved)"},
-          {amount:"handful", item:"fresh basil leaves, torn"},
-          {amount:"4 tbsp", item:"extra-virgin olive oil"},
-          {amount:"1 tbsp", item:"balsamic glaze"},
-          {amount:"to taste", item:"flaked sea salt and black pepper"}
-        ],
-        instructions: [
-          "Mix chopped tomatoes with minced garlic, basil, 2 tbsp olive oil, salt and pepper. Rest 10 minutes.",
-          "Grill or toast bread slices until golden and charred on both sides.",
-          "Immediately rub each slice with the halved garlic clove.",
-          "Drizzle with remaining olive oil.",
-          "Spoon tomato mixture generously on top.",
-          "Finish with balsamic glaze and extra basil. Serve immediately."
-        ],
-        youtube: { search: "bruschetta al pomodoro authentic Italian recipe", url: "https://www.youtube.com/results?search_query=bruschetta+al+pomodoro+authentic+Italian+recipe" }
-      },
-      main: {
-        name: "Ossobuco alla Milanese with Saffron Risotto",
-        description: "Braised cross-cut veal shanks in white wine with a bright gremolata, alongside creamy saffron risotto.",
-        servings: 4, prepTime: "25 min", cookTime: "2 hrs",
-        ingredients: [
-          {amount:"4", item:"veal ossobuco shanks (3 cm thick)"},
-          {amount:"plain flour", item:"for dusting"},
-          {amount:"1", item:"onion, finely diced"},
-          {amount:"2", item:"carrots, diced"},
-          {amount:"2", item:"celery stalks, diced"},
-          {amount:"200 ml", item:"dry white wine"},
-          {amount:"400g", item:"crushed tomatoes"},
-          {amount:"500 ml", item:"beef or veal stock"},
-          {amount:"300g", item:"risotto rice (Arborio)"},
-          {amount:"1 L", item:"warm chicken stock"},
-          {amount:"pinch", item:"saffron threads"},
-          {amount:"80g", item:"Parmesan, grated"},
-          {amount:"60g", item:"butter"},
-          {amount:"gremolata", item:"(1 lemon zest, 1 garlic clove, parsley, minced together)"}
-        ],
-        instructions: [
-          "Dust veal shanks in flour, season well. Brown in butter in a deep casserole, both sides. Remove.",
-          "Sauté onion, carrot and celery in same pan 8 minutes. Add wine, reduce by half.",
-          "Add tomatoes and stock. Return shanks, bring to a simmer, cover and braise 1.5 hours until meat pulls from bone.",
-          "For risotto: soften 1 onion in butter. Toast rice 2 minutes. Add wine.",
-          "Add warm saffron-infused stock ladle by ladle, stirring constantly, 18–20 minutes.",
-          "Finish with butter and Parmesan. Season.",
-          "Place risotto in shallow bowls, top with an ossobuco shank, spoon over braising sauce, scatter gremolata."
-        ],
-        youtube: { search: "Ossobuco alla Milanese recipe authentic Italian", url: "https://www.youtube.com/results?search_query=Ossobuco+alla+Milanese+recipe+authentic" }
-      },
-      dessert: {
-        name: "Tiramisù",
-        description: "Coffee-soaked ladyfingers layered with mascarpone cream and dusted with cocoa — Italy's most beloved dessert.",
-        servings: 8, prepTime: "30 min + 4 hrs chilling", cookTime: "0 min",
-        ingredients: [
-          {amount:"500g", item:"mascarpone"},
-          {amount:"6", item:"eggs, separated"},
-          {amount:"150g", item:"caster sugar"},
-          {amount:"300 ml", item:"strong espresso, cooled"},
-          {amount:"3 tbsp", item:"Marsala wine or dark rum"},
-          {amount:"300g", item:"Savoiardi (ladyfinger) biscuits"},
-          {amount:"3 tbsp", item:"good cocoa powder"}
-        ],
-        instructions: [
-          "Whisk egg yolks and sugar until pale and thick, about 5 minutes.",
-          "Beat in mascarpone until smooth.",
-          "In a separate bowl, whisk egg whites to stiff peaks. Fold into mascarpone mixture in two additions.",
-          "Mix coffee and Marsala in a shallow dish. Quickly dip each ladyfinger (1 second per side) and layer in a 25×30 cm dish.",
-          "Spread half the mascarpone mixture. Repeat with another layer of dipped biscuits.",
-          "Cover with remaining cream. Sieve cocoa generously over the top.",
-          "Refrigerate at least 4 hours (overnight is better). Serve cold."
-        ],
-        youtube: { search: "classic tiramisu recipe authentic Italian", url: "https://www.youtube.com/results?search_query=classic+tiramisu+recipe+authentic+Italian" }
-      }
-    }
-  },
+
   {
     id: "belgium", name: "Belgium", flag: "🇧🇪", confederation: "UEFA",
     intro: "Belgium punches above its weight in world cuisine — famous for mussels, beer-braised stews, fries and waffles.",
@@ -671,6 +593,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "croatia", name: "Croatia", flag: "🇭🇷", confederation: "UEFA",
     intro: "Croatian cuisine blends Adriatic seafood with Balkan grilling traditions and Austrian-influenced pastries.",
@@ -755,6 +678,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "turkey", name: "Turkey", flag: "🇹🇷", confederation: "UEFA",
     intro: "Turkish cuisine is one of the world's great culinary traditions — grilled meats, fragrant spiced soups and the iconic baklava.",
@@ -841,183 +765,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
-  {
-    id: "serbia", name: "Serbia", flag: "🇷🇸", confederation: "UEFA",
-    intro: "Serbian cuisine is bold and meaty — chargrilled minced meat, rich stews and cream-laden pastries.",
-    menu: {
-      starter: {
-        name: "Čorba od Povrća (Serbian Vegetable Soup)",
-        description: "A hearty, paprika-spiced broth packed with seasonal vegetables and vermicelli.",
-        servings: 4, prepTime: "15 min", cookTime: "35 min",
-        ingredients: [
-          {amount:"2", item:"carrots, diced"},
-          {amount:"2", item:"parsnips, diced"},
-          {amount:"2", item:"potatoes, diced"},
-          {amount:"1", item:"large onion, diced"},
-          {amount:"3 cloves", item:"garlic, sliced"},
-          {amount:"100g", item:"vermicelli or fine noodles"},
-          {amount:"1.5 L", item:"vegetable stock"},
-          {amount:"2 tsp", item:"sweet paprika"},
-          {amount:"3 tbsp", item:"sunflower oil"},
-          {amount:"handful", item:"fresh parsley"},
-          {amount:"to taste", item:"salt and pepper"}
-        ],
-        instructions: [
-          "Sauté onion in oil 5 minutes. Add garlic and paprika, stir 1 minute.",
-          "Add carrots, parsnips and potatoes. Pour in stock.",
-          "Bring to a boil, reduce heat and simmer 20 minutes until vegetables are tender.",
-          "Add vermicelli and cook 5 more minutes.",
-          "Season with salt and pepper. Stir in fresh parsley.",
-          "Serve hot with crusty bread."
-        ],
-        youtube: { search: "Serbian vegetable soup chorba recipe", url: "https://www.youtube.com/results?search_query=Serbian+vegetable+soup+chorba+recipe" }
-      },
-      main: {
-        name: "Ćevapčići with Ajvar & Lepinja",
-        description: "Skinless grilled sausages made from mixed minced meats, served in flatbread with roasted pepper relish.",
-        servings: 4, prepTime: "20 min + 1 hr resting", cookTime: "15 min",
-        ingredients: [
-          {amount:"500g", item:"beef mince"},
-          {amount:"300g", item:"pork mince"},
-          {amount:"3 cloves", item:"garlic, finely minced"},
-          {amount:"1 tsp", item:"baking soda"},
-          {amount:"1 tsp", item:"salt"},
-          {amount:"1 tsp", item:"black pepper"},
-          {amount:"1 tsp", item:"sweet paprika"},
-          {amount:"4", item:"lepinja or pita breads"},
-          {amount:"4 tbsp", item:"ajvar (roasted pepper relish, from jar)"},
-          {amount:"1", item:"white onion, finely diced"},
-          {amount:"200g", item:"kaymak or sour cream"}
-        ],
-        instructions: [
-          "Mix beef and pork mince with garlic, baking soda, salt, pepper and paprika.",
-          "Knead vigorously for 5 minutes until the mixture becomes sticky.",
-          "Refrigerate 1 hour (or overnight — texture improves greatly).",
-          "Shape into small cylinders, about 8 cm long and 2 cm thick.",
-          "Grill on a hot grill or griddle pan 3–4 minutes per side until cooked through and charred.",
-          "Warm lepinja breads on the grill. Spread with ajvar.",
-          "Fill breads with ćevapčići, raw onion and a spoonful of kaymak."
-        ],
-        youtube: { search: "Ćevapčići recipe authentic Balkan grilled sausages", url: "https://www.youtube.com/results?search_query=Cevapcici+recipe+authentic+Balkan" }
-      },
-      dessert: {
-        name: "Krempita (Serbian Custard Cake)",
-        description: "Flaky pastry filled with a thick vanilla custard cream — Serbia's answer to the mille-feuille.",
-        servings: 12, prepTime: "20 min + 4 hrs setting", cookTime: "20 min",
-        ingredients: [
-          {amount:"500g", item:"puff pastry (2 sheets)"},
-          {amount:"1 L", item:"whole milk"},
-          {amount:"6", item:"egg yolks"},
-          {amount:"160g", item:"caster sugar"},
-          {amount:"80g", item:"cornflour"},
-          {amount:"1 tsp", item:"vanilla extract"},
-          {amount:"200 ml", item:"double cream, whipped"},
-          {amount:"icing sugar", item:"for dusting"}
-        ],
-        instructions: [
-          "Bake puff pastry sheets at 200°C until golden and crisp. Cool completely.",
-          "Whisk yolks, sugar and cornflour together.",
-          "Heat milk until simmering. Pour slowly into egg mixture, whisking constantly.",
-          "Return to pot, cook stirring until very thick. Add vanilla. Cool completely.",
-          "Fold whipped cream into cooled custard.",
-          "Line a deep tin with one pastry sheet. Spread custard evenly. Top with second sheet.",
-          "Chill 4 hours. Dust with icing sugar, cut into squares."
-        ],
-        youtube: { search: "Krempita recipe Serbian custard cake", url: "https://www.youtube.com/results?search_query=Krempita+recipe+Serbian+custard+cake" }
-      }
-    }
-  },
-  {
-    id: "poland", name: "Poland", flag: "🇵🇱", confederation: "UEFA",
-    intro: "Polish food is rich, warming and deeply satisfying — sour rye soups, hearty hunter's stews and festive poppy seed rolls.",
-    menu: {
-      starter: {
-        name: "Żurek (Sour Rye Soup)",
-        description: "Fermented rye flour soup with hard-boiled eggs, white sausage and smoky bacon.",
-        servings: 4, prepTime: "5 min (if using starter)", cookTime: "30 min",
-        ingredients: [
-          {amount:"500 ml", item:"żurek starter (fermented rye flour, from Polish deli or homemade)"},
-          {amount:"1 L", item:"chicken stock"},
-          {amount:"200g", item:"biała kiełbasa (white sausage), sliced"},
-          {amount:"100g", item:"smoked bacon lardons"},
-          {amount:"4", item:"hard-boiled eggs, halved"},
-          {amount:"3 cloves", item:"garlic, minced"},
-          {amount:"1 tsp", item:"marjoram"},
-          {amount:"150 ml", item:"sour cream"},
-          {amount:"to taste", item:"salt and white pepper"},
-          {amount:"to serve", item:"rye bread or bread bowl"}
-        ],
-        instructions: [
-          "Fry bacon lardons until crispy. Add garlic, cook 1 minute.",
-          "Pour in stock and bring to a boil. Add sausage slices and marjoram.",
-          "Gradually whisk in żurek starter, tasting as you go (it is sour — add to taste).",
-          "Simmer 10 minutes. Remove from heat and whisk in sour cream.",
-          "Season with salt and pepper.",
-          "Serve in bowls or bread bowls with halved hard-boiled eggs on top."
-        ],
-        youtube: { search: "Żurek recipe Polish sour rye soup authentic", url: "https://www.youtube.com/results?search_query=Zurek+recipe+Polish+sour+rye+soup" }
-      },
-      main: {
-        name: "Bigos (Hunter's Stew)",
-        description: "Poland's national dish — sauerkraut and fresh cabbage slow-cooked with multiple meats and mushrooms.",
-        servings: 8, prepTime: "30 min", cookTime: "3 hrs",
-        ingredients: [
-          {amount:"500g", item:"sauerkraut, drained"},
-          {amount:"500g", item:"fresh white cabbage, shredded"},
-          {amount:"300g", item:"kielbasa sausage, chunked"},
-          {amount:"300g", item:"pork shoulder, cubed"},
-          {amount:"200g", item:"smoked bacon, diced"},
-          {amount:"30g", item:"dried porcini mushrooms, soaked in warm water"},
-          {amount:"400g", item:"crushed tomatoes"},
-          {amount:"200 ml", item:"dry red wine"},
-          {amount:"2", item:"onions, diced"},
-          {amount:"3", item:"bay leaves"},
-          {amount:"10", item:"black peppercorns"},
-          {amount:"4", item:"allspice berries"},
-          {amount:"1 tsp", item:"caraway seeds"}
-        ],
-        instructions: [
-          "Brown bacon in a large heavy pot. Brown pork in batches. Set both aside.",
-          "Sauté onion until soft. Add mushrooms (with strained soaking liquid) and cook 5 minutes.",
-          "Add sauerkraut and fresh cabbage. Pour in wine, tomatoes and mushroom liquid.",
-          "Add all meats, bay, peppercorns and allspice.",
-          "Simmer covered on very low heat for 2.5 hours, stirring occasionally.",
-          "Add kielbasa for the last 30 minutes.",
-          "Bigos improves over days — reheat and serve with rye bread. Excellent with a shot of chilled vodka."
-        ],
-        youtube: { search: "Bigos recipe Polish hunters stew authentic", url: "https://www.youtube.com/results?search_query=Bigos+recipe+Polish+hunters+stew" }
-      },
-      dessert: {
-        name: "Makowiec (Poppy Seed Roll)",
-        description: "A yeasted dough rolled around a dense filling of poppy seeds, honey, raisins and orange peel.",
-        servings: 12, prepTime: "40 min + 2 hrs proving", cookTime: "40 min",
-        ingredients: [
-          {amount:"500g", item:"plain flour"},
-          {amount:"7g", item:"instant yeast"},
-          {amount:"200 ml", item:"warm milk"},
-          {amount:"80g", item:"butter, softened"},
-          {amount:"2", item:"eggs"},
-          {amount:"80g", item:"sugar"},
-          {amount:"400g", item:"blue poppy seeds"},
-          {amount:"150g", item:"honey"},
-          {amount:"100g", item:"raisins"},
-          {amount:"zest", item:"of 1 orange"},
-          {amount:"50g", item:"walnuts, chopped"},
-          {amount:"icing sugar", item:"for dusting"}
-        ],
-        instructions: [
-          "Make dough: combine flour, yeast, salt, sugar, eggs, milk and butter. Knead 10 minutes until smooth. Prove 1 hour.",
-          "Grind poppy seeds in a blender or food processor until fine.",
-          "Mix ground poppy seeds with honey, raisins, orange zest and walnuts in a pan. Heat gently 5 minutes, stirring. Cool.",
-          "Roll dough into a 30×40 cm rectangle. Spread filling evenly, leaving a 2 cm border.",
-          "Roll tightly from the long side. Pinch seams. Prove on a lined baking sheet 45 minutes.",
-          "Bake at 180°C for 35–40 minutes until golden. Cool completely.",
-          "Dust with icing sugar, slice and serve."
-        ],
-        youtube: { search: "Makowiec Polish poppy seed roll recipe Christmas", url: "https://www.youtube.com/results?search_query=Makowiec+Polish+poppy+seed+roll+recipe" }
-      }
-    }
-  },
+
   {
     id: "austria", name: "Austria", flag: "🇦🇹", confederation: "UEFA",
     intro: "Austrian cuisine blends Viennese refinement with Alpine heartiness — from delicate soups to crispy schnitzel and the legendary Sachertorte.",
@@ -1097,6 +845,7 @@ const COUNTRIES_UEFA = [
       }
     }
   },
+
   {
     id: "scotland", name: "Scotland", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", confederation: "UEFA",
     intro: "Scottish cuisine draws on wild Highland landscapes — game, oats, whisky and foraged berries.",
@@ -1175,182 +924,413 @@ const COUNTRIES_UEFA = [
     }
   },
   {
-    id: "denmark", name: "Denmark", flag: "🇩🇰", confederation: "UEFA",
-    intro: "Danish cuisine is defined by smørrebrød open sandwiches, smoky fish soups and beloved æbleskiver pancake balls.",
+    id: "bosnia", name: "Bosnia & Herzegovina", flag: "🇧🇦", confederation: "UEFA",
+    intro: "Bosnian cooking is Ottoman soul food — slow-simmered stews, grilled meats and syrup-soaked sweets shared around the table.",
     menu: {
       starter: {
-        name: "Fiskesuppe (Danish Fish Soup)",
-        description: "A creamy, dill-scented fish and shellfish soup with root vegetables.",
-        servings: 4, prepTime: "20 min", cookTime: "30 min",
+        name: "Begova Čorba (Bey's Soup)",
+        description: "A velvety chicken and okra soup thickened with a roux and finished with cream — fit for a bey.",
+        servings: 6, prepTime: "20 min", cookTime: "1 hr",
         ingredients: [
-          {amount:"400g", item:"mixed white fish fillets (cod, hake), cut in chunks"},
-          {amount:"200g", item:"raw prawns, peeled"},
-          {amount:"2", item:"carrots, diced small"},
-          {amount:"2", item:"celery stalks, diced"},
-          {amount:"1", item:"leek, sliced"},
-          {amount:"800 ml", item:"fish stock"},
-          {amount:"200 ml", item:"double cream"},
-          {amount:"100 ml", item:"dry white wine"},
-          {amount:"large bunch", item:"fresh dill, chopped"},
-          {amount:"2 tbsp", item:"butter"},
-          {amount:"to taste", item:"salt, white pepper, lemon juice"}
+          {amount:"1", item:"whole chicken, jointed"},
+          {amount:"2", item:"carrots, diced"},
+          {amount:"1", item:"parsnip, diced"},
+          {amount:"1", item:"onion, finely chopped"},
+          {amount:"150g", item:"okra, sliced"},
+          {amount:"50g", item:"butter"},
+          {amount:"40g", item:"plain flour"},
+          {amount:"100 ml", item:"sour cream"},
+          {amount:"1", item:"egg yolk"},
+          {amount:"1 bunch", item:"parsley, chopped"}
         ],
         instructions: [
-          "Soften carrots, celery and leek in butter 8 minutes.",
-          "Add wine, reduce 2 minutes. Add fish stock and simmer 15 minutes.",
-          "Add fish chunks, simmer 5 minutes. Add prawns, cook 3 more minutes.",
-          "Pour in cream, stir gently. Heat through but do not boil.",
-          "Season with salt, white pepper and a squeeze of lemon.",
-          "Serve in deep bowls with plenty of dill and crusty bread."
+          "Simmer chicken in 2 litres salted water for 40 minutes. Lift out, shred the meat, reserve the stock.",
+          "Sweat onion, carrot and parsnip in butter until soft. Add okra and the shredded chicken.",
+          "Stir in flour and cook 2 minutes. Gradually whisk in the hot stock.",
+          "Simmer 15 minutes until thickened and the vegetables are tender.",
+          "Whisk sour cream with egg yolk, temper with a ladle of hot soup, then stir back in off the heat.",
+          "Finish with plenty of parsley and serve hot."
         ],
-        youtube: { search: "Danish fish soup fiskesuppe recipe Scandinavian", url: "https://www.youtube.com/results?search_query=Danish+fish+soup+fiskesuppe+recipe" }
+        youtube: { search: "Begova corba Bosnian bey soup recipe", url: "https://www.youtube.com/results?search_query=Begova+corba+Bosnian+bey+soup+recipe" }
       },
       main: {
-        name: "Frikadeller with Creamed Potatoes & Pickled Cucumber",
-        description: "Pan-fried Danish pork meatballs with silky potato purée and refreshing pickled cucumber salad.",
-        servings: 4, prepTime: "20 min", cookTime: "25 min",
+        name: "Ćevapi with Somun & Ajvar",
+        description: "Hand-rolled minced beef-and-lamb sausages grilled over charcoal, tucked into pillowy flatbread with onions and ajvar.",
+        servings: 4, prepTime: "30 min + 2 hr resting", cookTime: "15 min",
         ingredients: [
-          {amount:"500g", item:"pork mince"},
-          {amount:"1", item:"onion, grated"},
-          {amount:"1", item:"egg"},
-          {amount:"3 tbsp", item:"plain flour"},
-          {amount:"100 ml", item:"sparkling water"},
+          {amount:"400g", item:"beef mince"},
+          {amount:"300g", item:"lamb mince"},
+          {amount:"4", item:"garlic cloves, crushed"},
+          {amount:"1 tsp", item:"bicarbonate of soda"},
+          {amount:"1 tsp", item:"sweet paprika"},
           {amount:"1 tsp", item:"salt"},
-          {amount:"½ tsp", item:"allspice"},
-          {amount:"butter", item:"for frying"},
-          {amount:"1 kg", item:"potatoes, peeled"},
-          {amount:"100 ml", item:"warm cream"},
-          {amount:"50g", item:"butter (for potato)"},
-          {amount:"1", item:"cucumber, thinly sliced"},
-          {amount:"3 tbsp", item:"white wine vinegar"},
-          {amount:"2 tbsp", item:"sugar"}
+          {amount:"4", item:"somun flatbreads"},
+          {amount:"1", item:"red onion, finely chopped"},
+          {amount:"4 tbsp", item:"ajvar (red pepper relish)"}
         ],
         instructions: [
-          "Mix pork mince, onion, egg, flour, sparkling water, salt and allspice. Beat well until the texture is sticky.",
-          "Shape into oval patties with a wet spoon — the batter is quite soft.",
-          "Fry in butter over medium heat, 5–6 minutes per side until golden and cooked through.",
-          "Boil potatoes, drain, mash with warm cream and butter until very smooth. Season.",
-          "For pickled cucumber: dissolve vinegar and sugar, pour over cucumber slices. Rest 15 minutes.",
-          "Serve frikadeller with creamed potato and pickled cucumber alongside."
+          "Mix both minces with garlic, bicarbonate, paprika and salt. Knead 5 minutes until sticky and smooth.",
+          "Cover and rest in the fridge at least 2 hours (overnight is better).",
+          "Roll into finger-length sausages about 2 cm thick.",
+          "Grill over hot charcoal 8–10 minutes, turning, until charred outside and juicy within.",
+          "Warm the somun and split open. Pack in 5–6 ćevapi per portion.",
+          "Top with raw chopped onion and a spoonful of ajvar."
         ],
-        youtube: { search: "Frikadeller recipe Danish meatballs traditional", url: "https://www.youtube.com/results?search_query=Frikadeller+recipe+Danish+meatballs" }
+        youtube: { search: "Cevapi Bosnian recipe somun ajvar authentic", url: "https://www.youtube.com/results?search_query=Cevapi+Bosnian+recipe+somun+ajvar" }
       },
       dessert: {
-        name: "Æbleskiver (Danish Pancake Balls)",
-        description: "Puffy, spherical pancakes cooked in a special cast-iron pan, served with jam and icing sugar.",
-        servings: 24, prepTime: "15 min", cookTime: "20 min",
+        name: "Tufahija",
+        description: "Whole apples poached in sugar syrup and stuffed with a sweet walnut cream, crowned with whipped cream.",
+        servings: 6, prepTime: "25 min", cookTime: "25 min",
         ingredients: [
-          {amount:"250g", item:"plain flour"},
-          {amount:"2 tsp", item:"baking powder"},
-          {amount:"½ tsp", item:"bicarbonate of soda"},
-          {amount:"2 tbsp", item:"sugar"},
-          {amount:"½ tsp", item:"salt"},
-          {amount:"½ tsp", item:"cardamom"},
-          {amount:"3", item:"eggs, separated"},
-          {amount:"300 ml", item:"buttermilk"},
-          {amount:"30g", item:"butter, melted"},
-          {amount:"to serve", item:"strawberry jam and icing sugar"}
+          {amount:"6", item:"firm apples, peeled and cored"},
+          {amount:"300g", item:"sugar"},
+          {amount:"500 ml", item:"water"},
+          {amount:"1", item:"lemon, juiced"},
+          {amount:"200g", item:"walnuts, finely ground"},
+          {amount:"2 tbsp", item:"sugar (for filling)"},
+          {amount:"50 ml", item:"of the poaching syrup"},
+          {amount:"200 ml", item:"double cream, whipped"}
         ],
         instructions: [
-          "Whisk flour, baking powder, bicarb, sugar, salt and cardamom.",
-          "Mix egg yolks, buttermilk and melted butter. Combine with dry ingredients.",
-          "Whisk egg whites to stiff peaks. Fold into batter.",
-          "Heat an æbleskiver pan (or small muffin tins). Brush each hole with butter.",
-          "Half-fill each hole with batter. When edges start to set, use a skewer to rotate 90°. Cook further, then rotate again to form a complete sphere.",
-          "Remove when golden all over. Serve hot dusted with icing sugar, with jam for dipping."
+          "Bring sugar, water and lemon juice to a gentle simmer.",
+          "Poach the apples 10–15 minutes until tender but holding shape. Lift out and cool.",
+          "Reduce the syrup by half. Mix ground walnuts with sugar and a little syrup to a paste.",
+          "Stuff each apple generously with the walnut filling.",
+          "Spoon over more syrup and chill at least 1 hour.",
+          "Top each with whipped cream and a walnut half before serving."
         ],
-        youtube: { search: "Æbleskiver recipe Danish pancake balls traditional", url: "https://www.youtube.com/results?search_query=Ableskiver+recipe+Danish+pancake+balls" }
+        youtube: { search: "Tufahija Bosnian stuffed apple dessert recipe", url: "https://www.youtube.com/results?search_query=Tufahija+Bosnian+stuffed+apple+dessert" }
       }
     }
   },
   {
-    id: "hungary", name: "Hungary", flag: "🇭🇺", confederation: "UEFA",
-    intro: "Hungarian cuisine is defined by paprika — rich goulash soups, paprika-stewed meats and the extraordinary Dobos torte.",
+    id: "czechia", name: "Czech Republic", flag: "🇨🇿", confederation: "UEFA",
+    intro: "Czech cuisine is hearty pub fare — roasted meats in silky sauces, bread dumplings and a serious sweet tooth.",
     menu: {
       starter: {
-        name: "Gulyásleves (Hungarian Goulash Soup)",
-        description: "The original goulash — a paprika-rich beef and potato soup, hearty enough to be a meal.",
-        servings: 6, prepTime: "20 min", cookTime: "1.5 hrs",
+        name: "Bramboračka (Potato Soup)",
+        description: "A rustic potato and mushroom soup laced with garlic, marjoram and root vegetables.",
+        servings: 6, prepTime: "20 min", cookTime: "40 min",
         ingredients: [
-          {amount:"600g", item:"beef chuck, cut into 1.5 cm cubes"},
-          {amount:"3", item:"onions, diced"},
-          {amount:"3", item:"potatoes, diced"},
-          {amount:"3 tbsp", item:"sweet Hungarian paprika"},
-          {amount:"1 tsp", item:"hot paprika"},
-          {amount:"1 tsp", item:"caraway seeds"},
-          {amount:"1", item:"red pepper, diced"},
-          {amount:"3 cloves", item:"garlic, sliced"},
-          {amount:"400g", item:"crushed tomatoes"},
-          {amount:"1.5 L", item:"beef stock"},
-          {amount:"3 tbsp", item:"lard or sunflower oil"},
-          {amount:"to serve", item:"sour cream and crusty bread"}
+          {amount:"500g", item:"potatoes, diced"},
+          {amount:"30g", item:"dried mushrooms, soaked"},
+          {amount:"1", item:"carrot, diced"},
+          {amount:"1", item:"parsnip, diced"},
+          {amount:"2", item:"garlic cloves, crushed"},
+          {amount:"1 tsp", item:"dried marjoram"},
+          {amount:"30g", item:"butter"},
+          {amount:"30g", item:"plain flour"},
+          {amount:"1.5 L", item:"vegetable stock"},
+          {amount:"caraway seeds, salt, pepper", item:"to taste"}
         ],
         instructions: [
-          "Heat lard in a heavy pot. Brown beef in batches. Set aside.",
-          "Fry onions in the same pot 10 minutes until golden.",
-          "Remove pot from heat. Add both paprikas and caraway seeds — this is crucial: paprika burns if added over heat.",
-          "Return to heat. Add garlic, beef, peppers and tomatoes. Stir.",
-          "Pour in stock. Bring to a boil, then simmer 1 hour until beef is nearly tender.",
-          "Add potatoes, cook 20 more minutes.",
-          "Season and serve with a dollop of sour cream and fresh bread."
+          "Simmer potatoes, carrot, parsnip and soaked mushrooms in stock until tender, about 20 minutes.",
+          "Make a roux: cook butter and flour to a pale gold, then whisk in a ladle of hot stock.",
+          "Stir the roux back into the soup to thicken.",
+          "Add garlic, marjoram and caraway. Simmer 10 minutes more.",
+          "Season well with salt and pepper.",
+          "Serve with crusty rye bread."
         ],
-        youtube: { search: "authentic Hungarian goulash soup gulyás recipe", url: "https://www.youtube.com/results?search_query=authentic+Hungarian+goulash+soup+gulyas+recipe" }
+        youtube: { search: "Bramboracka Czech potato soup recipe authentic", url: "https://www.youtube.com/results?search_query=Bramboracka+Czech+potato+soup+recipe" }
       },
       main: {
-        name: "Pörkölt (Beef Paprika Stew) with Nokedli",
-        description: "Tender beef stewed in a deeply paprika-scented sauce, served with Hungarian egg noodle dumplings.",
-        servings: 4, prepTime: "20 min", cookTime: "2 hrs",
+        name: "Svíčková na Smetaně",
+        description: "Marinated beef in a silky root-vegetable cream sauce, served with bread dumplings, cranberries and a swirl of cream.",
+        servings: 6, prepTime: "30 min + overnight marinating", cookTime: "2 hr 30 min",
         ingredients: [
-          {amount:"1 kg", item:"beef chuck, cubed"},
-          {amount:"3", item:"onions, finely diced"},
-          {amount:"3 tbsp", item:"sweet paprika"},
-          {amount:"1 tsp", item:"hot paprika"},
-          {amount:"2", item:"tomatoes, diced"},
-          {amount:"2", item:"green peppers, diced"},
-          {amount:"100 ml", item:"dry red wine"},
-          {amount:"200 ml", item:"beef stock"},
-          {amount:"3 tbsp", item:"lard or sunflower oil"},
-          {amount:"300g", item:"plain flour (nokedli)"},
-          {amount:"3", item:"eggs (nokedli)"},
-          {amount:"200 ml", item:"water (nokedli)"},
-          {amount:"to serve", item:"sour cream and pickled peppers"}
+          {amount:"1.2 kg", item:"beef sirloin or topside"},
+          {amount:"2", item:"carrots"},
+          {amount:"1", item:"parsnip"},
+          {amount:"½", item:"celeriac"},
+          {amount:"2", item:"onions"},
+          {amount:"4", item:"allspice berries"},
+          {amount:"4", item:"black peppercorns"},
+          {amount:"2", item:"bay leaves"},
+          {amount:"200 ml", item:"double cream"},
+          {amount:"1 tbsp", item:"sugar, splash of vinegar"},
+          {amount:"1", item:"loaf bread dumpling (knedlíky), to serve"},
+          {amount:"cranberry sauce & lemon", item:"to garnish"}
         ],
         instructions: [
-          "Fry onions in lard until golden. Off heat, add both paprikas and stir.",
-          "Add beef, tomatoes and green peppers. Return to medium heat.",
-          "Add wine and stock. Bring to a boil, cover and simmer 1.5–2 hours.",
-          "Sauce should be thick and glossy — add water if needed. Season.",
-          "For nokedli: mix flour, eggs, water and salt to a soft, wet batter.",
-          "Press through a colander with large holes into boiling salted water. Cook 2 minutes, drain.",
-          "Serve pörkölt over nokedli with a generous spoonful of sour cream."
+          "Lard the beef and marinate overnight with the chopped root vegetables, spices and a splash of vinegar.",
+          "Sear the beef, then roast with the vegetables and a little stock at 160°C for about 2 hours until tender.",
+          "Rest the meat. Discard whole spices and blend the vegetables with the pan juices into a smooth sauce.",
+          "Stir in cream, sugar and a splash of vinegar; simmer to a glossy sauce. Adjust the sweet-sour balance.",
+          "Slice the beef and nap with the sauce.",
+          "Serve with bread dumplings, a spoon of cranberry, a cream swirl and a lemon slice."
         ],
-        youtube: { search: "Pörkölt Hungarian beef stew nokedli recipe", url: "https://www.youtube.com/results?search_query=Porkölt+Hungarian+beef+stew+nokedli+recipe" }
+        youtube: { search: "Svickova na smetane Czech beef recipe authentic", url: "https://www.youtube.com/results?search_query=Svickova+na+smetane+Czech+beef+recipe" }
       },
       dessert: {
-        name: "Dobos Torte",
-        description: "Six thin sponge layers with chocolate buttercream and a hard caramel top — Budapest's most elegant cake.",
-        servings: 12, prepTime: "1 hr", cookTime: "30 min",
+        name: "Ovocné Knedlíky (Fruit Dumplings)",
+        description: "Soft quark dough dumplings hiding whole plums, dusted with sweet curd cheese and browned butter.",
+        servings: 4, prepTime: "30 min", cookTime: "10 min",
         ingredients: [
-          {amount:"6", item:"eggs, separated"},
-          {amount:"150g", item:"caster sugar"},
-          {amount:"150g", item:"plain flour"},
-          {amount:"200g", item:"dark chocolate, melted"},
-          {amount:"300g", item:"unsalted butter, softened"},
-          {amount:"150g", item:"icing sugar"},
-          {amount:"3", item:"egg yolks (for buttercream)"},
-          {amount:"150g", item:"caster sugar (for caramel)"},
-          {amount:"2 tbsp", item:"water (for caramel)"}
+          {amount:"250g", item:"quark (curd cheese)"},
+          {amount:"200g", item:"plain flour"},
+          {amount:"1", item:"egg"},
+          {amount:"30g", item:"butter, softened"},
+          {amount:"pinch", item:"salt"},
+          {amount:"8", item:"small plums, stoned"},
+          {amount:"100g", item:"butter, for serving"},
+          {amount:"100g", item:"tvaroh or ground poppy seed"},
+          {amount:"icing sugar", item:"to dust"}
         ],
         instructions: [
-          "Preheat oven to 190°C. Whisk egg yolks and caster sugar until pale. Fold in flour, then stiff egg whites.",
-          "Spread thinly across 6 lined 22 cm baking circles. Bake each 8 minutes until golden. Cool.",
-          "Chocolate buttercream: beat butter and icing sugar, add melted chocolate and egg yolks. Beat until smooth.",
-          "Layer sponges with buttercream. Coat sides and top with remaining buttercream.",
-          "Reserve the best sponge layer for the top. Make caramel: boil sugar and water until amber.",
-          "Pour caramel over the reserved sponge on an oiled surface. Before it sets, mark into 12 wedges with an oiled knife.",
-          "Arrange caramel wedges angled up on top of the cake. Refrigerate 2 hours before serving."
+          "Mix quark, flour, egg, softened butter and salt into a soft dough. Rest 15 minutes.",
+          "Roll out and cut into squares. Wrap each square around a plum, sealing well.",
+          "Drop the dumplings into gently simmering water and cook 8–10 minutes until they float and puff.",
+          "Melt the serving butter until lightly browned and nutty.",
+          "Drain the dumplings and roll in browned butter.",
+          "Smother with curd cheese (or ground poppy seed) and a generous snow of icing sugar."
         ],
-        youtube: { search: "Dobos Torte recipe Hungarian caramel layer cake", url: "https://www.youtube.com/results?search_query=Dobos+Torte+recipe+Hungarian+caramel+cake" }
+        youtube: { search: "Ovocne knedliky Czech fruit dumplings recipe", url: "https://www.youtube.com/results?search_query=Ovocne+knedliky+Czech+fruit+dumplings+recipe" }
+      }
+    }
+  },
+  {
+    id: "norway", name: "Norway", flag: "🇳🇴", confederation: "UEFA",
+    intro: "Norwegian food is the larder of the fjords — fresh fish, mountain mutton and buttery griddle cakes.",
+    menu: {
+      starter: {
+        name: "Fiskesuppe (Bergen Fish Soup)",
+        description: "A creamy west-coast fish soup with cod, root vegetables and a bright hit of vinegar and dill.",
+        servings: 6, prepTime: "20 min", cookTime: "30 min",
+        ingredients: [
+          {amount:"600g", item:"cod or haddock, cubed"},
+          {amount:"1 L", item:"fish stock"},
+          {amount:"2", item:"carrots, julienned"},
+          {amount:"1", item:"leek, sliced"},
+          {amount:"½", item:"celeriac, diced"},
+          {amount:"200 ml", item:"double cream"},
+          {amount:"2", item:"egg yolks"},
+          {amount:"1 tbsp", item:"white wine vinegar"},
+          {amount:"1 tsp", item:"sugar"},
+          {amount:"1 bunch", item:"dill, chopped"}
+        ],
+        instructions: [
+          "Simmer carrots, leek and celeriac in the fish stock until just tender.",
+          "Whisk cream with egg yolks. Temper with hot stock, then stir back into the pan off the boil.",
+          "Add vinegar and sugar — the soup should taste subtly sweet-sour.",
+          "Slip in the fish and poach gently 4–5 minutes until just cooked.",
+          "Season with salt and white pepper.",
+          "Finish with a generous shower of fresh dill."
+        ],
+        youtube: { search: "Bergen fiskesuppe Norwegian fish soup recipe", url: "https://www.youtube.com/results?search_query=Bergen+fiskesuppe+Norwegian+fish+soup+recipe" }
+      },
+      main: {
+        name: "Fårikål (Mutton & Cabbage)",
+        description: "Norway's national dish: layers of mutton and cabbage slow-stewed with whole black peppercorns.",
+        servings: 6, prepTime: "20 min", cookTime: "2 hr",
+        ingredients: [
+          {amount:"1.5 kg", item:"mutton or lamb, on the bone, cut into pieces"},
+          {amount:"1.5 kg", item:"white cabbage, in wedges"},
+          {amount:"2 tbsp", item:"whole black peppercorns"},
+          {amount:"2 tbsp", item:"plain flour"},
+          {amount:"2 tsp", item:"salt"},
+          {amount:"500 ml", item:"water"},
+          {amount:"boiled potatoes", item:"to serve"}
+        ],
+        instructions: [
+          "Layer mutton and cabbage in a heavy pot, fatty side of the meat down first.",
+          "Between layers scatter peppercorns, a little flour and salt.",
+          "Pour in the water, bring to a simmer, then cover tightly.",
+          "Stew very gently for about 2 hours until the meat falls from the bone.",
+          "Don't stir — just baste occasionally with the liquor.",
+          "Serve in deep bowls with boiled potatoes and the peppery broth."
+        ],
+        youtube: { search: "Farikal Norwegian mutton cabbage recipe authentic", url: "https://www.youtube.com/results?search_query=Farikal+Norwegian+mutton+cabbage+recipe" }
+      },
+      dessert: {
+        name: "Krumkake",
+        description: "Crisp, cardamom-scented waffle cones rolled while hot and filled with whipped cream.",
+        servings: 20, prepTime: "20 min", cookTime: "20 min",
+        ingredients: [
+          {amount:"3", item:"eggs"},
+          {amount:"150g", item:"sugar"},
+          {amount:"100g", item:"butter, melted"},
+          {amount:"150g", item:"plain flour"},
+          {amount:"100 ml", item:"milk"},
+          {amount:"½ tsp", item:"ground cardamom"},
+          {amount:"1 tsp", item:"vanilla"},
+          {amount:"whipped cream", item:"to fill"}
+        ],
+        instructions: [
+          "Whisk eggs and sugar until pale. Stir in melted butter.",
+          "Fold in flour, milk, cardamom and vanilla to a smooth batter.",
+          "Heat a krumkake iron and cook spoonfuls until golden and lacy.",
+          "Working fast, roll each hot wafer around a cone form.",
+          "Let the cones cool and crisp.",
+          "Pipe in whipped cream just before serving so they stay crunchy."
+        ],
+        youtube: { search: "Krumkake Norwegian waffle cookie recipe", url: "https://www.youtube.com/results?search_query=Krumkake+Norwegian+waffle+cookie+recipe" }
+      }
+    }
+  },
+  {
+    id: "sweden", name: "Sweden", flag: "🇸🇪", confederation: "UEFA",
+    intro: "Swedish cooking balances comfort and finesse — buttery seafood, lingonberry-laced meatballs and cakes made for fika.",
+    menu: {
+      starter: {
+        name: "Toast Skagen",
+        description: "Hand-peeled prawns folded through dill mayonnaise, piled on butter-fried bread with a spoon of roe.",
+        servings: 4, prepTime: "15 min", cookTime: "5 min",
+        ingredients: [
+          {amount:"300g", item:"cooked cold-water prawns"},
+          {amount:"3 tbsp", item:"mayonnaise"},
+          {amount:"2 tbsp", item:"crème fraîche"},
+          {amount:"1 bunch", item:"dill, chopped"},
+          {amount:"1 tsp", item:"Dijon mustard"},
+          {amount:"1", item:"lemon, zested and juiced"},
+          {amount:"4 slices", item:"white bread"},
+          {amount:"butter", item:"for frying"},
+          {amount:"4 tsp", item:"whitefish roe (löjrom)"}
+        ],
+        instructions: [
+          "Fold prawns through mayonnaise, crème fraîche, mustard, dill and lemon zest.",
+          "Season and add lemon juice to taste; chill briefly.",
+          "Fry the bread in butter until golden and crisp on both sides.",
+          "Cut into neat shapes and pile the prawn mixture high.",
+          "Top each with a spoonful of roe.",
+          "Garnish with a dill sprig and a lemon wedge."
+        ],
+        youtube: { search: "Toast Skagen Swedish prawn recipe authentic", url: "https://www.youtube.com/results?search_query=Toast+Skagen+Swedish+prawn+recipe" }
+      },
+      main: {
+        name: "Köttbullar with Lingonberry",
+        description: "Tender Swedish meatballs in a creamy gravy, served with mash, lingonberries and quick-pickled cucumber.",
+        servings: 4, prepTime: "25 min", cookTime: "25 min",
+        ingredients: [
+          {amount:"400g", item:"beef mince"},
+          {amount:"200g", item:"pork mince"},
+          {amount:"1", item:"onion, grated"},
+          {amount:"60g", item:"breadcrumbs soaked in 80 ml milk"},
+          {amount:"1", item:"egg"},
+          {amount:"¼ tsp", item:"ground allspice"},
+          {amount:"30g", item:"butter"},
+          {amount:"2 tbsp", item:"flour"},
+          {amount:"400 ml", item:"beef stock"},
+          {amount:"150 ml", item:"double cream"},
+          {amount:"lingonberry jam & mash", item:"to serve"}
+        ],
+        instructions: [
+          "Mix minces with grated onion, soaked breadcrumbs, egg and allspice. Season and roll into small balls.",
+          "Brown the meatballs all over in butter, then lift out.",
+          "Stir flour into the pan, cook 1 minute, then whisk in stock and cream.",
+          "Simmer the gravy until glossy and return the meatballs to warm through.",
+          "Adjust seasoning with a dash of soy for colour if you like.",
+          "Serve with mashed potato and a generous spoon of lingonberry jam."
+        ],
+        youtube: { search: "Swedish kottbullar meatballs lingonberry recipe", url: "https://www.youtube.com/results?search_query=Swedish+kottbullar+meatballs+lingonberry+recipe" }
+      },
+      dessert: {
+        name: "Prinsesstårta",
+        description: "The iconic green princess cake: sponge, raspberry jam and vanilla cream under a dome of marzipan.",
+        servings: 12, prepTime: "1 hr", cookTime: "25 min",
+        ingredients: [
+          {amount:"4", item:"eggs"},
+          {amount:"150g", item:"sugar"},
+          {amount:"120g", item:"plain flour"},
+          {amount:"40g", item:"cornflour"},
+          {amount:"1 tsp", item:"baking powder"},
+          {amount:"500 ml", item:"pastry cream"},
+          {amount:"400 ml", item:"double cream, whipped"},
+          {amount:"4 tbsp", item:"raspberry jam"},
+          {amount:"400g", item:"green marzipan"},
+          {amount:"icing sugar & a marzipan rose", item:"to finish"}
+        ],
+        instructions: [
+          "Whisk eggs and sugar to a thick ribbon. Fold in sifted flours and baking powder. Bake at 175°C for 25 minutes.",
+          "Cool and slice the sponge into three layers.",
+          "Layer with raspberry jam, pastry cream and whipped cream, mounding the top into a dome.",
+          "Chill until firm so the dome holds.",
+          "Roll green marzipan thin and drape over the whole cake, smoothing the dome.",
+          "Dust with icing sugar and finish with a pink marzipan rose."
+        ],
+        youtube: { search: "Prinsesstarta Swedish princess cake recipe", url: "https://www.youtube.com/results?search_query=Prinsesstarta+Swedish+princess+cake+recipe" }
+      }
+    }
+  },
+  {
+    id: "switzerland", name: "Switzerland", flag: "🇨🇭", confederation: "UEFA",
+    intro: "Swiss cooking is alpine comfort — melted cheese, crisp potato rösti and delicate nut pastries from the mountain valleys.",
+    menu: {
+      starter: {
+        name: "Bündner Gerstensuppe (Barley Soup)",
+        description: "A thick Grisons barley soup with smoked ham, root vegetables and a finish of cream.",
+        servings: 6, prepTime: "20 min", cookTime: "1 hr 15 min",
+        ingredients: [
+          {amount:"200g", item:"pearl barley"},
+          {amount:"150g", item:"Bündnerfleisch or smoked ham, diced"},
+          {amount:"2", item:"carrots, diced"},
+          {amount:"1", item:"leek, sliced"},
+          {amount:"½", item:"celeriac, diced"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"1.5 L", item:"beef stock"},
+          {amount:"100 ml", item:"single cream"},
+          {amount:"1", item:"bay leaf"},
+          {amount:"parsley", item:"to finish"}
+        ],
+        instructions: [
+          "Soak the barley 1 hour, then drain.",
+          "Sweat onion, carrot, leek and celeriac in a little butter.",
+          "Add barley, ham, bay leaf and stock. Simmer gently 1 hour, stirring now and then.",
+          "The soup should turn thick and creamy as the barley breaks down.",
+          "Stir in the cream and warm through; season well.",
+          "Finish with chopped parsley and serve with alpine bread."
+        ],
+        youtube: { search: "Bundner Gerstensuppe Swiss barley soup recipe", url: "https://www.youtube.com/results?search_query=Bundner+Gerstensuppe+Swiss+barley+soup+recipe" }
+      },
+      main: {
+        name: "Zürcher Geschnetzeltes with Rösti",
+        description: "Zurich-style veal in a creamy mushroom and white wine sauce, served over crisp golden rösti.",
+        servings: 4, prepTime: "20 min", cookTime: "30 min",
+        ingredients: [
+          {amount:"600g", item:"veal, thinly sliced"},
+          {amount:"250g", item:"button mushrooms, sliced"},
+          {amount:"1", item:"shallot, finely chopped"},
+          {amount:"100 ml", item:"white wine"},
+          {amount:"200 ml", item:"double cream"},
+          {amount:"1 tbsp", item:"flour"},
+          {amount:"butter", item:"for frying"},
+          {amount:"800g", item:"waxy potatoes, par-boiled and grated"},
+          {amount:"lemon juice & parsley", item:"to finish"}
+        ],
+        instructions: [
+          "For the rösti, press grated potato into a buttered pan and fry slowly on both sides until golden and crisp.",
+          "Dust the veal with flour and sear quickly in butter; remove.",
+          "Sweat shallot and mushrooms, deglaze with white wine and reduce.",
+          "Add cream and simmer to a velvety sauce.",
+          "Return the veal with its juices, warm through (don't boil hard) and sharpen with lemon.",
+          "Spoon over wedges of rösti and scatter with parsley."
+        ],
+        youtube: { search: "Zurcher Geschnetzeltes rosti Swiss veal recipe", url: "https://www.youtube.com/results?search_query=Zurcher+Geschnetzeltes+rosti+Swiss+veal+recipe" }
+      },
+      dessert: {
+        name: "Basler Läckerli",
+        description: "Spiced Basel honey biscuits packed with almonds and candied peel, glazed to a glossy finish.",
+        servings: 30, prepTime: "30 min + resting", cookTime: "20 min",
+        ingredients: [
+          {amount:"250g", item:"honey"},
+          {amount:"200g", item:"sugar"},
+          {amount:"150g", item:"almonds, chopped"},
+          {amount:"100g", item:"candied orange & lemon peel"},
+          {amount:"350g", item:"plain flour"},
+          {amount:"1 tsp", item:"ground cinnamon"},
+          {amount:"½ tsp", item:"ground cloves"},
+          {amount:"2 tbsp", item:"kirsch"},
+          {amount:"100g", item:"icing sugar (for glaze)"}
+        ],
+        instructions: [
+          "Warm honey and sugar until dissolved; cool slightly.",
+          "Stir in almonds, candied peel, spices and kirsch.",
+          "Work in the flour to a stiff dough. Rest overnight if you can.",
+          "Roll to 1 cm thick on a lined tray and bake at 180°C for about 18 minutes.",
+          "Brush the warm slab with a thin icing-sugar glaze.",
+          "Cut into small rectangles while still warm; store in a tin to mellow."
+        ],
+        youtube: { search: "Basler Lackerli Swiss spiced biscuit recipe", url: "https://www.youtube.com/results?search_query=Basler+Lackerli+Swiss+spiced+biscuit+recipe" }
       }
     }
   }

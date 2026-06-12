@@ -243,6 +243,31 @@ img { max-width: 100%; }
   max-width: 480px;
   margin-top: .4rem;
 }
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .9rem;
+  padding: .5rem 1rem;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--dark1, #0d1117);
+  background: var(--gold);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, background .2s ease;
+}
+.share-btn:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
+  transform: translateY(-1px);
+}
+.share-btn:active { transform: translateY(0); }
+.share-btn.shared {
+  background: #3fb950;
+  color: #fff;
+}
+.share-icon { flex-shrink: 0; }
 
 /* ===== COURSE TABS ===== */
 .course-tabs {

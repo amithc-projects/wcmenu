@@ -152,19 +152,72 @@ function init() {
   buildCoursePanel(country.menu.main,    document.getElementById('coursePanelMain'),    country.id, 'main');
   buildCoursePanel(country.menu.dessert, document.getElementById('coursePanelDessert'), country.id, 'dessert');
 
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-btn').forEach(b => {
-        b.classList.remove('active');
-        b.setAttribute('aria-selected', 'false');
-      });
-      document.querySelectorAll('.course-panel').forEach(p => p.classList.add('hidden'));
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-      const pid = panelIds[btn.dataset.course];
-      if (pid) document.getElementById(pid).classList.remove('hidden');
+  function activateTab(course, updateHash = true) {
+    if (!panelIds[course]) course = 'starter';
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      const on = b.dataset.course === course;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
     });
+    document.querySelectorAll('.course-panel').forEach(p => p.classList.add('hidden'));
+    document.getElementById(panelIds[course]).classList.remove('hidden');
+    if (updateHash && window.location.hash !== `#${course}`) {
+      history.replaceState(null, '', `#${course}`);
+    }
+  }
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => activateTab(btn.dataset.course));
   });
+
+  // Open the tab named in the URL hash (e.g. ...?id=france#dessert)
+  activateTab(window.location.hash.replace('#', '') || 'starter', false);
+  window.addEventListener('hashchange', () =>
+    activateTab(window.location.hash.replace('#', '') || 'starter', false)
+  );
+
+  setupShareButton(country);
+}
+
+function setupShareButton(country) {
+  const btn = document.getElementById('shareBtn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    const url = window.location.href;
+    const shareData = {
+      title: `${country.name} Menu — World Cup 2026`,
+      text: `Check out the ${country.name} 3-course menu for World Cup 2026 ${country.flag}`,
+      url
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+      await navigator.clipboard.writeText(url);
+      flashShareLabel(btn, '✓ Link copied!');
+    } catch (err) {
+      if (err && err.name === 'AbortError') return; // user cancelled native sheet
+      try {
+        await navigator.clipboard.writeText(url);
+        flashShareLabel(btn, '✓ Link copied!');
+      } catch {
+        flashShareLabel(btn, 'Copy failed');
+      }
+    }
+  });
+}
+
+function flashShareLabel(btn, msg) {
+  const label = btn.querySelector('.share-label');
+  if (!label) return;
+  const original = label.textContent;
+  label.textContent = msg;
+  btn.classList.add('shared');
+  setTimeout(() => {
+    label.textContent = original;
+    btn.classList.remove('shared');
+  }, 2000);
 }
 
 init();

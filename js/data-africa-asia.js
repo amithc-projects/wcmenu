@@ -94,6 +94,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "senegal", name: "Senegal", flag: "🇸🇳", confederation: "CAF",
     intro: "Senegalese cuisine is West Africa's finest — thieboudienne is considered one of the world's great rice dishes.",
@@ -173,88 +174,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
-  {
-    id: "nigeria", name: "Nigeria", flag: "🇳🇬", confederation: "CAF",
-    intro: "Nigerian food is vibrant and bold — jollof rice battles, fiery pepper soups and the addictive sweetness of puff puff.",
-    menu: {
-      starter: {
-        name: "Nigerian Pepper Soup",
-        description: "A fiery, intensely spiced broth with goat meat or fish — Nigeria's ultimate comfort and cold remedy.",
-        servings: 4, prepTime: "15 min", cookTime: "50 min",
-        ingredients: [
-          {amount:"800g", item:"goat meat or chicken, bone-in and cut into pieces"},
-          {amount:"2 tbsp", item:"pepper soup spice blend (blend of ehuru, uziza seed, uda, crayfish)"},
-          {amount:"2", item:"Scotch bonnet peppers, whole"},
-          {amount:"1 tsp", item:"ground crayfish"},
-          {amount:"1", item:"onion, quartered"},
-          {amount:"2", item:"bay leaves"},
-          {amount:"1 L", item:"water"},
-          {amount:"fresh uziza leaves", item:"or basil, for finishing"},
-          {amount:"salt", item:"to taste"}
-        ],
-        instructions: [
-          "Wash and season meat with salt, onion and pepper soup spice. Leave 15 minutes.",
-          "Place meat in a pot with water. Bring to a boil, skim foam.",
-          "Add Scotch bonnets (whole), crayfish and bay leaves.",
-          "Simmer 40–45 minutes until meat is tender and broth is deeply fragrant.",
-          "Adjust seasoning. Remove whole Scotch bonnets if you want less heat (or blend in for more).",
-          "Tear in uziza leaves or basil for the last 2 minutes. Serve as starter with agidi or plain."
-        ],
-        youtube: { search: "Nigerian pepper soup recipe authentic goat meat", url: "https://www.youtube.com/results?search_query=Nigerian+pepper+soup+recipe+authentic" }
-      },
-      main: {
-        name: "Jollof Rice with Suya",
-        description: "The beloved West African party rice — tomato-stewed and smoky, topped with spiced skewered beef suya.",
-        servings: 6, prepTime: "30 min", cookTime: "1 hr",
-        ingredients: [
-          {amount:"500g", item:"long-grain parboiled rice"},
-          {amount:"600g", item:"beef sirloin, sliced thinly for suya"},
-          {amount:"400g", item:"crushed tomatoes"},
-          {amount:"3 tbsp", item:"tomato paste"},
-          {amount:"2", item:"red peppers, blended"},
-          {amount:"2", item:"large onions (1 blended, 1 sliced)"},
-          {amount:"4 cloves", item:"garlic, minced"},
-          {amount:"2 Scotch bonnet", item:"peppers, blended"},
-          {amount:"4 tbsp", item:"vegetable oil"},
-          {amount:"500 ml", item:"chicken stock"},
-          {amount:"suya spice:", item:"2 tbsp ground peanuts, 1 tsp ginger, 1 tsp paprika, 1 tsp garlic powder, ½ tsp cayenne, salt"}
-        ],
-        instructions: [
-          "Blend tomatoes, red peppers, Scotch bonnets and blended onion. Fry paste in oil 20 minutes until darkened.",
-          "Add tomato paste, cook 5 more minutes. Add stock, bring to a boil.",
-          "Wash rice, add to pot. Rice should be barely covered. Cover with foil then lid.",
-          "Cook on low heat 30 minutes without lifting lid. Lift lid, stir gently, cook 10 more minutes.",
-          "Mix suya spice ingredients. Coat beef slices, thread onto skewers.",
-          "Grill or pan-fry suya 3 minutes per side until charred. Serve on jollof rice with sliced onion and tomato."
-        ],
-        youtube: { search: "Jollof rice recipe Nigerian authentic party rice", url: "https://www.youtube.com/results?search_query=Jollof+rice+recipe+Nigerian+authentic" }
-      },
-      dessert: {
-        name: "Puff Puff",
-        description: "Soft, yeast-leavened deep-fried dough balls dusted with sugar — Nigeria's most popular street sweet.",
-        servings: 30, prepTime: "15 min + 1 hr proving", cookTime: "20 min",
-        ingredients: [
-          {amount:"400g", item:"plain flour"},
-          {amount:"7g", item:"instant yeast"},
-          {amount:"150g", item:"caster sugar"},
-          {amount:"½ tsp", item:"salt"},
-          {amount:"½ tsp", item:"ground nutmeg"},
-          {amount:"350 ml", item:"warm water"},
-          {amount:"oil", item:"for deep frying"},
-          {amount:"icing sugar", item:"for dusting"}
-        ],
-        instructions: [
-          "Mix flour, yeast, sugar, salt and nutmeg. Add warm water gradually, beat to a smooth, sticky batter.",
-          "Cover and prove 1 hour until doubled.",
-          "Heat oil to 175°C.",
-          "Use two spoons or an ice cream scoop to drop balls of batter into the oil.",
-          "Fry 3–4 minutes, turning, until deep golden on all sides.",
-          "Drain on paper towels. Dust with icing sugar while still hot."
-        ],
-        youtube: { search: "Puff Puff recipe Nigerian authentic fried dough", url: "https://www.youtube.com/results?search_query=Puff+Puff+recipe+Nigerian+authentic" }
-      }
-    }
-  },
+
   {
     id: "ivory-coast", name: "Ivory Coast", flag: "🇨🇮", confederation: "CAF",
     intro: "Ivorian cuisine is West African cooking at its most vibrant — grilled fish, peanut stews and the must-try attieké.",
@@ -330,6 +250,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "egypt", name: "Egypt", flag: "🇪🇬", confederation: "CAF",
     intro: "Egyptian cuisine is ancient and filling — fava beans, lentils and the extraordinary koshari have fed civilisations.",
@@ -412,6 +333,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "south-africa", name: "South Africa", flag: "🇿🇦", confederation: "CAF",
     intro: "South African food is a rainbow of influences — Cape Malay spices, Zulu braai culture and Afrikaner heritage baking.",
@@ -490,87 +412,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
-  {
-    id: "cameroon", name: "Cameroon", flag: "🇨🇲", confederation: "CAF",
-    intro: "Cameroon — Africa in miniature — has a cuisine as diverse as its geography, from forest herbs to coastal grills.",
-    menu: {
-      starter: {
-        name: "Beignets de Plantain",
-        description: "Crispy fried plantain fritters with a spiced avocado-tomato dip.",
-        servings: 4, prepTime: "15 min", cookTime: "15 min",
-        ingredients: [
-          {amount:"3", item:"ripe plantains, peeled and mashed"},
-          {amount:"100g", item:"plain flour"},
-          {amount:"1", item:"egg"},
-          {amount:"1 tsp", item:"salt"},
-          {amount:"½ tsp", item:"cayenne"},
-          {amount:"oil", item:"for frying"},
-          {amount:"dip:", item:"1 avocado + 2 tomatoes + ½ onion + 1 Scotch bonnet + lime juice, all chopped and mixed"}
-        ],
-        instructions: [
-          "Mix mashed plantain with flour, egg, salt and cayenne to a thick batter.",
-          "Heat oil to 175°C.",
-          "Drop spoonfuls of batter into oil. Fry 3 minutes per side until golden.",
-          "Make dip: roughly mash avocado with diced tomato, onion and Scotch bonnet. Season with lime and salt.",
-          "Drain fritters on paper towels.",
-          "Serve hot with avocado dip."
-        ],
-        youtube: { search: "Cameroonian plantain beignets recipe African fritters", url: "https://www.youtube.com/results?search_query=Cameroonian+plantain+fritters+recipe" }
-      },
-      main: {
-        name: "Ndolé (Bitter Leaf Stew)",
-        description: "Cameroon's national dish — bitter leaves stewed with shrimp, groundnuts and beef.",
-        servings: 6, prepTime: "40 min", cookTime: "1 hr",
-        ingredients: [
-          {amount:"500g", item:"bitter leaves (ndolé), or spinach as substitute — well washed and squeezed"},
-          {amount:"400g", item:"beef, cut in small pieces"},
-          {amount:"200g", item:"raw shrimps, peeled"},
-          {amount:"200g", item:"groundnut paste (peanut butter, unsweetened)"},
-          {amount:"2", item:"onions, blended"},
-          {amount:"4 cloves", item:"garlic, minced"},
-          {amount:"1", item:"Scotch bonnet"},
-          {amount:"2 cups", item:"beef stock"},
-          {amount:"4 tbsp", item:"vegetable oil"},
-          {amount:"2 crayfish stock cubes", item:"(or 1 tbsp ground dried shrimp)"}
-        ],
-        instructions: [
-          "Boil bitter leaves 3 times, changing water each time, to reduce bitterness. Drain and chop.",
-          "Brown beef in oil. Remove. Fry blended onion 10 minutes.",
-          "Add garlic, crayfish powder and stock. Simmer beef 20 minutes.",
-          "Mix groundnut paste with a little stock to a smooth sauce. Add to pot.",
-          "Add bitter leaves and shrimps. Simmer 20 minutes, stirring regularly.",
-          "Season. Serve with plantain, cocoyam or rice."
-        ],
-        youtube: { search: "Ndolé recipe authentic Cameroonian national dish", url: "https://www.youtube.com/results?search_query=Ndolé+recipe+authentic+Cameroonian" }
-      },
-      dessert: {
-        name: "Beignets au Miel (Honey Doughnuts)",
-        description: "Light Cameroonian yeasted doughnuts drizzled with local honey and a pinch of cinnamon.",
-        servings: 20, prepTime: "20 min + 1 hr proving", cookTime: "20 min",
-        ingredients: [
-          {amount:"400g", item:"plain flour"},
-          {amount:"7g", item:"instant yeast"},
-          {amount:"50g", item:"sugar"},
-          {amount:"½ tsp", item:"salt"},
-          {amount:"1 tsp", item:"vanilla"},
-          {amount:"2", item:"eggs"},
-          {amount:"150 ml", item:"warm milk"},
-          {amount:"oil", item:"for frying"},
-          {amount:"runny honey", item:"for drizzling"},
-          {amount:"cinnamon", item:"for dusting"}
-        ],
-        instructions: [
-          "Mix flour, yeast, sugar, salt and vanilla. Add eggs and warm milk, knead to a soft dough.",
-          "Prove 1 hour until doubled.",
-          "Roll to 1.5 cm thick. Cut into rounds or tear into rough balls.",
-          "Fry at 175°C for 3 minutes per side until deep golden.",
-          "Drain on paper towels.",
-          "Serve warm drizzled with honey and dusted with cinnamon."
-        ],
-        youtube: { search: "African honey beignets recipe doughnuts", url: "https://www.youtube.com/results?search_query=African+honey+beignets+doughnuts+recipe" }
-      }
-    }
-  },
+
   {
     id: "tunisia", name: "Tunisia", flag: "🇹🇳", confederation: "CAF",
     intro: "Tunisian food is North Africa's spiciest and most sophisticated — harissa heat, seafood and the elegance of brik pastry.",
@@ -658,6 +500,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "algeria", name: "Algeria", flag: "🇩🇿", confederation: "CAF",
     intro: "Algerian cuisine blends Berber, Arab and Mediterranean influences — aromatic soups, flatbreads and honey sweets.",
@@ -742,6 +585,7 @@ const COUNTRIES_AFRICA_ASIA = [
     }
   },
 
+
   // ===== AFC (Asia) =====
   {
     id: "japan", name: "Japan", flag: "🇯🇵", confederation: "AFC",
@@ -819,6 +663,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "south-korea", name: "South Korea", flag: "🇰🇷", confederation: "AFC",
     intro: "Korean cuisine balances fermented depth with bold flavours — kimchi, gochujang and the art of banchan.",
@@ -900,6 +745,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "australia", name: "Australia", flag: "🇦🇺", confederation: "AFC",
     intro: "Australian food reflects a multicultural nation with incredible produce — fresh seafood, quality lamb and an obsession with coffee culture.",
@@ -980,6 +826,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "saudi-arabia", name: "Saudi Arabia", flag: "🇸🇦", confederation: "AFC",
     intro: "Saudi cuisine is fragrant and generous — aromatic rice dishes, slow-roasted meats and sweet dates in every household.",
@@ -1069,6 +916,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "iran", name: "Iran", flag: "🇮🇷", confederation: "AFC",
     intro: "Persian cuisine is one of the world's oldest — fragrant herb stews, saffron-golden rices and rosewater-scented sweets.",
@@ -1153,6 +1001,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
+
   {
     id: "qatar", name: "Qatar", flag: "🇶🇦", confederation: "AFC",
     intro: "Qatari cuisine blends Gulf Arab tradition with pearling culture — fragrant spiced rice, slow-cooked meats and syrup-soaked sweets.",
@@ -1241,167 +1090,7 @@ const COUNTRIES_AFRICA_ASIA = [
       }
     }
   },
-  {
-    id: "indonesia", name: "Indonesia", flag: "🇮🇩", confederation: "AFC",
-    intro: "Indonesian cuisine is 17,000 islands of flavour — fragrant rendang, peanut-dressed salads and coconut-based everything.",
-    menu: {
-      starter: {
-        name: "Gado-Gado",
-        description: "Indonesian vegetable salad with boiled eggs, tofu and tempeh, drenched in peanut sauce.",
-        servings: 4, prepTime: "30 min", cookTime: "15 min",
-        ingredients: [
-          {amount:"200g", item:"green beans, blanched"},
-          {amount:"200g", item:"bean sprouts, blanched"},
-          {amount:"2", item:"medium potatoes, boiled and sliced"},
-          {amount:"200g", item:"firm tofu, fried until golden"},
-          {amount:"150g", item:"tempeh, sliced and fried"},
-          {amount:"4", item:"hard-boiled eggs, halved"},
-          {amount:"peanut sauce:", item:"200g crunchy peanut butter, 2 cloves garlic, 2 tbsp kecap manis (sweet soy), 1 tbsp tamarind paste, 1 tsp chilli, 200ml coconut milk, lime juice, salt"}
-        ],
-        instructions: [
-          "Make peanut sauce: blend all sauce ingredients until smooth. Thin with warm water to pouring consistency.",
-          "Cook peanut sauce in a small pan 5 minutes, stirring. Keep warm.",
-          "Arrange all vegetables, eggs, tofu and tempeh on a large platter.",
-          "Pour peanut sauce generously over everything.",
-          "Garnish with crispy shallots and prawn crackers.",
-          "Serve immediately — peanut sauce should be warm."
-        ],
-        youtube: { search: "Gado Gado recipe authentic Indonesian peanut sauce", url: "https://www.youtube.com/results?search_query=Gado+Gado+recipe+authentic+Indonesian" }
-      },
-      main: {
-        name: "Beef Rendang",
-        description: "Indonesia's crown jewel — beef slow-cooked in coconut milk and spices until almost dry and intensely flavoured.",
-        servings: 6, prepTime: "40 min", cookTime: "3 hrs",
-        ingredients: [
-          {amount:"1.2 kg", item:"beef chuck, cut into large cubes"},
-          {amount:"800 ml", item:"coconut milk"},
-          {amount:"spice paste (rempah):", item:"6 shallots, 4 garlic cloves, 3 red chillies, 2 lemongrass stalks, 1 inch galangal, 1 inch ginger, 1 inch turmeric — all blended"},
-          {amount:"3", item:"kaffir lime leaves"},
-          {amount:"2", item:"lemongrass stalks, bruised"},
-          {amount:"1 tbsp", item:"tamarind paste"},
-          {amount:"1 tbsp", item:"palm sugar or brown sugar"},
-          {amount:"1 tsp", item:"salt"},
-          {amount:"3 tbsp", item:"vegetable oil"},
-          {amount:"kerisik:", item:"3 tbsp desiccated coconut, dry-toasted until deep brown and pounded"}
-        ],
-        instructions: [
-          "Fry spice paste in oil over medium heat for 8–10 minutes until fragrant and dark.",
-          "Add beef, coat with paste. Add coconut milk, kaffir leaves, lemongrass, tamarind and sugar.",
-          "Bring to a boil, then reduce to a steady simmer, uncovered.",
-          "Cook 2–2.5 hours, stirring occasionally as the liquid reduces.",
-          "When liquid has nearly all evaporated, add kerisik (toasted coconut paste) and stir.",
-          "Continue cooking, stirring often, until beef is dark, dry-ish and coated in rich paste.",
-          "Serve with steamed white rice. Rendang only gets better the next day."
-        ],
-        youtube: { search: "Beef Rendang recipe authentic Indonesian from scratch", url: "https://www.youtube.com/results?search_query=Beef+Rendang+recipe+authentic+Indonesian" }
-      },
-      dessert: {
-        name: "Es Cendol",
-        description: "A cooling layered dessert of pandan-green rice flour noodles, coconut milk, palm sugar syrup and shaved ice.",
-        servings: 4, prepTime: "30 min", cookTime: "15 min",
-        ingredients: [
-          {amount:"100g", item:"rice flour"},
-          {amount:"2 tbsp", item:"tapioca starch"},
-          {amount:"1 tsp", item:"pandan paste or extract"},
-          {amount:"300 ml", item:"water"},
-          {amount:"400 ml", item:"full-fat coconut milk"},
-          {amount:"150g", item:"palm sugar (gula melaka), shaved"},
-          {amount:"3 tbsp", item:"water (for syrup)"},
-          {amount:"4 cups", item:"crushed ice or shaved ice"},
-          {amount:"pinch", item:"salt (for coconut milk)"}
-        ],
-        instructions: [
-          "Make cendol: mix rice flour, tapioca starch, pandan and water. Cook, stirring until thick.",
-          "Press hot mixture through a colander with wide holes into ice-cold water. Cendol noodles will form.",
-          "Make palm sugar syrup: melt palm sugar with water, simmer 5 minutes. Cool.",
-          "Season coconut milk with a pinch of salt.",
-          "In tall glasses: add a scoop of cendol, crushed ice on top, then pour coconut milk over.",
-          "Drizzle palm sugar syrup generously. Serve immediately with a straw and spoon."
-        ],
-        youtube: { search: "Es Cendol recipe authentic Indonesian coconut ice dessert", url: "https://www.youtube.com/results?search_query=Es+Cendol+recipe+authentic+Indonesian" }
-      }
-    }
-  },
-  {
-    id: "china", name: "China", flag: "🇨🇳", confederation: "AFC",
-    intro: "Chinese cuisine is one of the world's oldest and most diverse — from Sichuanese fire to Cantonese elegance and Peking imperial feasts.",
-    menu: {
-      starter: {
-        name: "Hot and Sour Soup",
-        description: "Silky broth with tofu, wood ear mushrooms and egg ribbons — tangy, spicy and deeply satisfying.",
-        servings: 4, prepTime: "20 min", cookTime: "15 min",
-        ingredients: [
-          {amount:"1.2 L", item:"chicken or vegetable stock"},
-          {amount:"200g", item:"firm tofu, julienned"},
-          {amount:"50g", item:"dried wood ear mushrooms, soaked and sliced"},
-          {amount:"100g", item:"bamboo shoots, julienned (from can)"},
-          {amount:"100g", item:"pork mince (optional)"},
-          {amount:"3 tbsp", item:"rice vinegar"},
-          {amount:"2 tbsp", item:"soy sauce"},
-          {amount:"1 tsp", item:"white pepper"},
-          {amount:"1 tsp", item:"chilli oil"},
-          {amount:"3 tbsp", item:"cornflour + 4 tbsp water"},
-          {amount:"2", item:"eggs, beaten"},
-          {amount:"2", item:"spring onions + 1 tsp sesame oil to finish"}
-        ],
-        instructions: [
-          "Bring stock to a boil. Add mushrooms, bamboo shoots and pork (if using). Simmer 5 minutes.",
-          "Add tofu. Season with soy sauce, vinegar, white pepper and chilli oil.",
-          "Stir cornflour mixture into the boiling soup to thicken.",
-          "Pour beaten eggs slowly in a thin stream while stirring the soup in one direction — egg ribbons will form.",
-          "Taste and adjust vinegar and pepper — it should be assertively sour and hot.",
-          "Serve in bowls topped with spring onion and a few drops of sesame oil."
-        ],
-        youtube: { search: "hot and sour soup recipe authentic Chinese restaurant style", url: "https://www.youtube.com/results?search_query=hot+and+sour+soup+recipe+authentic+Chinese" }
-      },
-      main: {
-        name: "Peking Duck (Beijing Roast Duck)",
-        description: "China's most celebrated dish — lacquered, crispy-skinned duck served with pancakes, hoisin and cucumber.",
-        servings: 4, prepTime: "30 min + 24 hrs air-drying", cookTime: "1.5 hrs",
-        ingredients: [
-          {amount:"1", item:"whole duck (2 kg), neck and excess fat removed"},
-          {amount:"2 tbsp", item:"maltose or honey"},
-          {amount:"2 tbsp", item:"soy sauce"},
-          {amount:"1 tsp", item:"five-spice powder"},
-          {amount:"12–16", item:"small Chinese pancakes (store-bought or homemade)"},
-          {amount:"hoisin sauce", item:"to serve"},
-          {amount:"½", item:"cucumber, cut into matchsticks"},
-          {amount:"4", item:"spring onions, cut into batons"},
-          {amount:"filling/cavity:", item:"2 star anise, 1 cinnamon stick, 3 spring onions, 2 garlic cloves"}
-        ],
-        instructions: [
-          "Blanch duck with boiling water poured over skin. Pat dry completely.",
-          "Mix maltose, soy and five-spice. Brush all over duck.",
-          "Hang or place on a rack in the fridge, uncovered, 24 hours to dry the skin.",
-          "Place aromatics inside cavity. Roast at 200°C for 1 hour 20 minutes until mahogany and crispy.",
-          "Rest 15 minutes. Carve skin and meat into thin slices — skin should shatter.",
-          "Serve with warm pancakes: spread hoisin, add duck, cucumber and spring onion, roll up."
-        ],
-        youtube: { search: "Peking Duck recipe Beijing roast duck authentic home", url: "https://www.youtube.com/results?search_query=Peking+Duck+recipe+Beijing+roast+duck+authentic" }
-      },
-      dessert: {
-        name: "Tanghulu (Candied Fruit Skewers)",
-        description: "Beijing street food — strawberries and hawthorn berries skewered and coated in a glass-hard sugar shell.",
-        servings: 6, prepTime: "15 min", cookTime: "10 min",
-        ingredients: [
-          {amount:"300g", item:"fresh strawberries (or Chinese hawthorn, grapes, tangerine segments)"},
-          {amount:"300g", item:"caster sugar"},
-          {amount:"150 ml", item:"water"},
-          {amount:"bamboo skewers", item:"soaked in water 10 min"}
-        ],
-        instructions: [
-          "Thread fruit onto skewers. Leave at room temperature to dry completely.",
-          "Line a baking tray with baking paper.",
-          "Boil sugar and water WITHOUT stirring to 160°C (hard crack stage). Use a sugar thermometer.",
-          "Remove from heat immediately. Tilt pot to create a pool of syrup.",
-          "Working quickly, dip each skewer into the syrup, rotating to coat fully.",
-          "Place on lined tray immediately. The sugar sets rock-hard within seconds.",
-          "Serve within 30 minutes — they do not keep well as moisture softens the candy."
-        ],
-        youtube: { search: "Tanghulu recipe Chinese candied fruit skewers Beijing street food", url: "https://www.youtube.com/results?search_query=Tanghulu+recipe+Chinese+candied+fruit+skewers" }
-      }
-    }
-  },
+
 
   // ===== OFC =====
   {
@@ -1478,6 +1167,489 @@ const COUNTRIES_AFRICA_ASIA = [
           "Top with whipped cream and fresh fruit just before serving."
         ],
         youtube: { search: "Pavlova recipe New Zealand authentic meringue cream", url: "https://www.youtube.com/results?search_query=Pavlova+recipe+New+Zealand+authentic" }
+      }
+    }
+  },
+  {
+    id: "cape-verde", name: "Cape Verde", flag: "🇨🇻", confederation: "CAF",
+    intro: "Cape Verdean food is island Creole — slow-cooked corn-and-bean stews, fresh Atlantic fish and Portuguese-leaning sweets.",
+    menu: {
+      starter: {
+        name: "Caldo de Peixe (Fish Soup)",
+        description: "A clear, fragrant island fish soup with tuna, sweet potato, cassava and a squeeze of lime.",
+        servings: 6, prepTime: "20 min", cookTime: "40 min",
+        ingredients: [
+          {amount:"600g", item:"tuna or grouper, cubed"},
+          {amount:"1", item:"onion, sliced"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"2", item:"garlic cloves"},
+          {amount:"300g", item:"sweet potato, chunked"},
+          {amount:"300g", item:"cassava, chunked"},
+          {amount:"1", item:"green pepper, sliced"},
+          {amount:"2 tbsp", item:"olive oil"},
+          {amount:"1", item:"bay leaf, fresh coriander"},
+          {amount:"1", item:"lime, to serve"}
+        ],
+        instructions: [
+          "Soften onion, garlic, tomato and pepper in olive oil.",
+          "Add sweet potato, cassava, bay leaf and water to cover.",
+          "Simmer until the root vegetables are nearly tender.",
+          "Slip in the fish and poach gently 8–10 minutes.",
+          "Season and stir through plenty of coriander.",
+          "Serve with lime wedges to squeeze over."
+        ],
+        youtube: { search: "Caldo de peixe Cape Verde fish soup recipe", url: "https://www.youtube.com/results?search_query=Caldo+de+peixe+Cape+Verde+fish+soup+recipe" }
+      },
+      main: {
+        name: "Cachupa",
+        description: "Cape Verde's national dish: a slow-simmered stew of hominy corn, beans, vegetables and pork or fish.",
+        servings: 8, prepTime: "30 min + overnight soaking", cookTime: "3 hr",
+        ingredients: [
+          {amount:"400g", item:"hominy corn, soaked overnight"},
+          {amount:"300g", item:"dried beans, soaked overnight"},
+          {amount:"400g", item:"pork belly, cubed"},
+          {amount:"200g", item:"chorizo or linguiça, sliced"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"300g", item:"cassava and sweet potato, chunked"},
+          {amount:"¼", item:"cabbage, shredded"},
+          {amount:"2 tbsp", item:"olive oil"},
+          {amount:"1", item:"bay leaf, paprika, coriander"}
+        ],
+        instructions: [
+          "Boil the soaked corn and beans together until starting to soften, about 1.5 hours.",
+          "In another pan brown the pork and sausage with onion and tomato.",
+          "Combine everything with paprika and bay leaf; add water to cover.",
+          "Simmer slowly 1 hour, topping up liquid as needed.",
+          "Add cassava, sweet potato and cabbage; cook until everything is meltingly tender.",
+          "Rest before serving — cachupa always tastes better reheated the next day."
+        ],
+        youtube: { search: "Cachupa Cape Verde national dish recipe authentic", url: "https://www.youtube.com/results?search_query=Cachupa+Cape+Verde+national+dish+recipe" }
+      },
+      dessert: {
+        name: "Pudim de Queijo",
+        description: "A silky baked cheese caramel custard — Cape Verde's take on the Portuguese pudim.",
+        servings: 8, prepTime: "20 min", cookTime: "50 min",
+        ingredients: [
+          {amount:"200g", item:"sugar (for caramel)"},
+          {amount:"400 ml", item:"condensed milk"},
+          {amount:"400 ml", item:"evaporated milk"},
+          {amount:"4", item:"eggs"},
+          {amount:"150g", item:"cream cheese or fresh curd"},
+          {amount:"1 tsp", item:"vanilla"},
+          {amount:"zest", item:"of 1 lemon"}
+        ],
+        instructions: [
+          "Melt the sugar to an amber caramel and pour into a ring mould, swirling to coat.",
+          "Blend condensed and evaporated milk, eggs, cheese, vanilla and lemon zest until smooth.",
+          "Pour over the set caramel.",
+          "Bake in a water bath at 170°C for about 45 minutes until just set with a slight wobble.",
+          "Cool, then chill thoroughly.",
+          "Invert onto a plate so the caramel runs down the sides."
+        ],
+        youtube: { search: "Pudim de queijo cheese flan recipe Portuguese", url: "https://www.youtube.com/results?search_query=Pudim+de+queijo+cheese+flan+recipe" }
+      }
+    }
+  },
+  {
+    id: "dr-congo", name: "DR Congo", flag: "🇨🇩", confederation: "CAF",
+    intro: "Congolese cooking is Central African comfort — peanutty greens, palm-rich chicken stews and sweet fried dough.",
+    menu: {
+      starter: {
+        name: "Fumbwa (Wild Spinach Stew)",
+        description: "Wild greens slow-cooked with ground peanuts, tomato and smoked fish into a rich, earthy stew.",
+        servings: 6, prepTime: "20 min", cookTime: "45 min",
+        ingredients: [
+          {amount:"400g", item:"fumbwa or spinach, chopped"},
+          {amount:"100g", item:"smoked fish, flaked"},
+          {amount:"4 tbsp", item:"peanut butter"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"3 tbsp", item:"palm or vegetable oil"},
+          {amount:"2", item:"garlic cloves"},
+          {amount:"1", item:"chilli, chopped"},
+          {amount:"salt", item:"to taste"}
+        ],
+        instructions: [
+          "Soften onion, garlic and tomato in the oil.",
+          "Add the greens and a little water; cook down until wilted.",
+          "Stir in the smoked fish and chilli.",
+          "Loosen the peanut butter with hot water and stir through.",
+          "Simmer 25–30 minutes until thick and the oil rises.",
+          "Season and serve with rice, fufu or plantain."
+        ],
+        youtube: { search: "Fumbwa Congolese wild spinach stew recipe", url: "https://www.youtube.com/results?search_query=Fumbwa+Congolese+wild+spinach+stew+recipe" }
+      },
+      main: {
+        name: "Poulet à la Moambe",
+        description: "DR Congo's national dish: chicken braised in a deep, tangy palm-nut sauce, served with rice and greens.",
+        servings: 6, prepTime: "20 min", cookTime: "1 hr",
+        ingredients: [
+          {amount:"1.2 kg", item:"chicken, jointed"},
+          {amount:"400g", item:"moambe (palm nut) sauce or pulp"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"3", item:"garlic cloves"},
+          {amount:"1", item:"chilli (piri piri)"},
+          {amount:"2 tbsp", item:"oil"},
+          {amount:"1", item:"bay leaf"},
+          {amount:"salt & pepper", item:"to taste"},
+          {amount:"rice & greens", item:"to serve"}
+        ],
+        instructions: [
+          "Brown the chicken pieces all over and set aside.",
+          "Soften onion, garlic and tomato in the same pot.",
+          "Stir in the moambe sauce and a little water to loosen.",
+          "Return the chicken with bay leaf and chilli.",
+          "Simmer gently 40–45 minutes until the chicken is tender and the sauce is rich and oily.",
+          "Season and serve with rice and a side of greens."
+        ],
+        youtube: { search: "Poulet a la moambe Congolese palm nut chicken recipe", url: "https://www.youtube.com/results?search_query=Poulet+a+la+moambe+Congolese+chicken+recipe" }
+      },
+      dessert: {
+        name: "Mikate (Congolese Doughnuts)",
+        description: "Light, slightly sweet fried dough balls — the beloved street snack and teatime treat.",
+        servings: 20, prepTime: "20 min + 1 hr rising", cookTime: "20 min",
+        ingredients: [
+          {amount:"300g", item:"plain flour"},
+          {amount:"60g", item:"sugar"},
+          {amount:"7g", item:"instant yeast"},
+          {amount:"200 ml", item:"warm water"},
+          {amount:"1", item:"banana, mashed (optional)"},
+          {amount:"pinch", item:"salt & nutmeg"},
+          {amount:"oil", item:"for deep-frying"}
+        ],
+        instructions: [
+          "Mix flour, sugar, yeast, salt and nutmeg.",
+          "Add warm water (and mashed banana) and beat to a thick, sticky batter.",
+          "Cover and leave to rise about 1 hour until bubbly.",
+          "Heat oil to 170°C.",
+          "Drop in spoonfuls of batter and fry until golden and puffed, turning once.",
+          "Drain and dust with sugar; eat warm."
+        ],
+        youtube: { search: "Mikate Congolese doughnuts recipe authentic", url: "https://www.youtube.com/results?search_query=Mikate+Congolese+doughnuts+recipe" }
+      }
+    }
+  },
+  {
+    id: "ghana", name: "Ghana", flag: "🇬🇭", confederation: "CAF",
+    intro: "Ghanaian cooking is vibrant West African heat — smoky jollof rice, spiced fried plantain and golden street doughnuts.",
+    menu: {
+      starter: {
+        name: "Kelewele",
+        description: "Cubes of ripe plantain tossed in ginger, chilli and spices, then fried until caramelised and crisp.",
+        servings: 4, prepTime: "15 min", cookTime: "15 min",
+        ingredients: [
+          {amount:"4", item:"ripe plantains, cubed"},
+          {amount:"1 tbsp", item:"fresh ginger, grated"},
+          {amount:"2", item:"garlic cloves, crushed"},
+          {amount:"1 tsp", item:"cayenne or chilli powder"},
+          {amount:"½ tsp", item:"ground nutmeg"},
+          {amount:"½ tsp", item:"ground aniseed or cloves"},
+          {amount:"1 tsp", item:"salt"},
+          {amount:"oil", item:"for frying"}
+        ],
+        instructions: [
+          "Mix ginger, garlic, cayenne, nutmeg, aniseed and salt with a splash of water into a paste.",
+          "Toss the plantain cubes in the spice paste and leave 10 minutes.",
+          "Heat oil to 175°C.",
+          "Fry the plantain in batches until deep golden and caramelised at the edges.",
+          "Drain on paper.",
+          "Serve hot as a snack, with roasted peanuts on the side."
+        ],
+        youtube: { search: "Kelewele Ghanaian spicy plantain recipe authentic", url: "https://www.youtube.com/results?search_query=Kelewele+Ghanaian+spicy+plantain+recipe" }
+      },
+      main: {
+        name: "Ghanaian Jollof Rice with Chicken",
+        description: "Smoky long-grain rice cooked in a rich tomato-and-pepper base, served with spiced roast chicken.",
+        servings: 6, prepTime: "25 min", cookTime: "50 min",
+        ingredients: [
+          {amount:"500g", item:"long-grain rice, rinsed"},
+          {amount:"6", item:"chicken thighs"},
+          {amount:"4", item:"tomatoes"},
+          {amount:"2", item:"red peppers"},
+          {amount:"2", item:"Scotch bonnets (to taste)"},
+          {amount:"2", item:"onions"},
+          {amount:"4 tbsp", item:"tomato purée"},
+          {amount:"100 ml", item:"oil"},
+          {amount:"2", item:"bay leaves, curry powder, thyme"},
+          {amount:"500 ml", item:"chicken stock"}
+        ],
+        instructions: [
+          "Season and roast or fry the chicken until browned; set aside.",
+          "Blend tomatoes, peppers, Scotch bonnet and one onion to a smooth purée.",
+          "Fry the second chopped onion in oil, add tomato purée and the blended sauce; cook down until thick and the oil rises.",
+          "Stir in spices, bay leaves and the rice, coating every grain.",
+          "Add hot stock, cover tightly and steam on low until the rice is tender and the bottom lightly smoky.",
+          "Fluff and serve with the chicken."
+        ],
+        youtube: { search: "Ghanaian jollof rice recipe authentic chicken", url: "https://www.youtube.com/results?search_query=Ghanaian+jollof+rice+recipe+authentic+chicken" }
+      },
+      dessert: {
+        name: "Bofrot (Ghanaian Doughnuts)",
+        description: "Round, golden spiced doughnuts — crisp outside, soft and cakey within. Known as 'puff puff' across West Africa.",
+        servings: 20, prepTime: "20 min + 1 hr rising", cookTime: "20 min",
+        ingredients: [
+          {amount:"300g", item:"plain flour"},
+          {amount:"80g", item:"sugar"},
+          {amount:"7g", item:"instant yeast"},
+          {amount:"200 ml", item:"warm water"},
+          {amount:"½ tsp", item:"grated nutmeg"},
+          {amount:"pinch", item:"salt"},
+          {amount:"oil", item:"for deep-frying"}
+        ],
+        instructions: [
+          "Whisk flour, sugar, yeast, nutmeg and salt.",
+          "Add warm water and beat to a smooth, thick batter.",
+          "Cover and prove about 1 hour until doubled and bubbly.",
+          "Heat oil to 170°C.",
+          "Scoop balls of batter with wet hands or a spoon and fry until golden, turning for an even colour.",
+          "Drain and roll in sugar; serve warm."
+        ],
+        youtube: { search: "Bofrot Ghanaian doughnuts puff puff recipe", url: "https://www.youtube.com/results?search_query=Bofrot+Ghanaian+doughnuts+puff+puff+recipe" }
+      }
+    }
+  },
+  {
+    id: "iraq", name: "Iraq", flag: "🇮🇶", confederation: "AFC",
+    intro: "Iraqi cuisine is Mesopotamian heritage — smoky grilled river fish, fragrant spiced rice and date-filled pastries.",
+    menu: {
+      starter: {
+        name: "Shorbat Adas (Lentil Soup)",
+        description: "A smooth, warming red-lentil soup brightened with cumin, turmeric and lemon.",
+        servings: 6, prepTime: "15 min", cookTime: "35 min",
+        ingredients: [
+          {amount:"300g", item:"red lentils, rinsed"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"1", item:"carrot, diced"},
+          {amount:"2", item:"garlic cloves"},
+          {amount:"1 tsp", item:"ground cumin"},
+          {amount:"1 tsp", item:"turmeric"},
+          {amount:"2 tbsp", item:"olive oil"},
+          {amount:"1.5 L", item:"vegetable stock"},
+          {amount:"1", item:"lemon, juiced"},
+          {amount:"fried bread & parsley", item:"to serve"}
+        ],
+        instructions: [
+          "Soften onion, carrot and garlic in olive oil.",
+          "Stir in cumin and turmeric and cook until fragrant.",
+          "Add lentils and stock; simmer 25–30 minutes until the lentils collapse.",
+          "Blend until smooth, loosening with water if needed.",
+          "Sharpen with lemon juice and season.",
+          "Serve with crisp fried bread and chopped parsley."
+        ],
+        youtube: { search: "Shorbat adas Iraqi lentil soup recipe authentic", url: "https://www.youtube.com/results?search_query=Shorbat+adas+Iraqi+lentil+soup+recipe" }
+      },
+      main: {
+        name: "Masgouf",
+        description: "Iraq's national dish: butterflied river fish marinated in tamarind, slow-grilled by the fire until smoky and tender.",
+        servings: 4, prepTime: "25 min", cookTime: "45 min",
+        ingredients: [
+          {amount:"1", item:"large carp or sea bass, butterflied"},
+          {amount:"3 tbsp", item:"olive oil"},
+          {amount:"2 tbsp", item:"tamarind paste"},
+          {amount:"4", item:"garlic cloves, crushed"},
+          {amount:"1 tbsp", item:"tomato purée"},
+          {amount:"1 tsp", item:"turmeric"},
+          {amount:"1 tsp", item:"curry powder"},
+          {amount:"2", item:"tomatoes, sliced"},
+          {amount:"1", item:"onion, sliced"},
+          {amount:"salt, lemon", item:"to serve"}
+        ],
+        instructions: [
+          "Open the fish out flat, skin-side down.",
+          "Mix oil, tamarind, garlic, tomato purée, turmeric and curry powder; rub all over the flesh.",
+          "Marinate 30 minutes.",
+          "Grill flesh-side up over a low fire (or hot oven) until almost cooked, basting often.",
+          "Top with sliced tomato and onion and finish until the fish is smoky and just done.",
+          "Serve with flatbread, lemon and pickles."
+        ],
+        youtube: { search: "Masgouf Iraqi grilled fish recipe authentic", url: "https://www.youtube.com/results?search_query=Masgouf+Iraqi+grilled+fish+recipe" }
+      },
+      dessert: {
+        name: "Kleicha",
+        description: "Iraq's national cookie: tender spiced pastry spirals filled with date paste and scented with cardamom and rose.",
+        servings: 30, prepTime: "40 min", cookTime: "20 min",
+        ingredients: [
+          {amount:"400g", item:"plain flour"},
+          {amount:"150g", item:"butter, melted"},
+          {amount:"1 tsp", item:"instant yeast"},
+          {amount:"1 tsp", item:"ground cardamom"},
+          {amount:"100 ml", item:"warm milk"},
+          {amount:"300g", item:"date paste"},
+          {amount:"2 tbsp", item:"butter (for filling)"},
+          {amount:"1 tsp", item:"rose or orange-blossom water"},
+          {amount:"1", item:"egg yolk + sesame seeds, to glaze"}
+        ],
+        instructions: [
+          "Rub melted butter into flour with yeast and cardamom; add warm milk and knead to a soft dough. Rest 30 minutes.",
+          "Soften the date paste with butter and rose water.",
+          "Roll the dough thin, spread with date paste, and roll up into a log.",
+          "Slice into rounds and lay cut-side up on a tray.",
+          "Brush with egg yolk and scatter sesame seeds.",
+          "Bake at 180°C for about 18 minutes until golden."
+        ],
+        youtube: { search: "Kleicha Iraqi date cookies recipe authentic", url: "https://www.youtube.com/results?search_query=Kleicha+Iraqi+date+cookies+recipe" }
+      }
+    }
+  },
+  {
+    id: "jordan", name: "Jordan", flag: "🇯🇴", confederation: "AFC",
+    intro: "Jordanian cuisine is Levantine generosity — creamy hummus, the great communal lamb feast of mansaf, and cheese-filled knafeh.",
+    menu: {
+      starter: {
+        name: "Hummus",
+        description: "Silky chickpea purée whipped with tahini, lemon and garlic, finished with olive oil and paprika.",
+        servings: 6, prepTime: "15 min + overnight soaking", cookTime: "1 hr",
+        ingredients: [
+          {amount:"250g", item:"dried chickpeas, soaked overnight"},
+          {amount:"1 tsp", item:"bicarbonate of soda"},
+          {amount:"120g", item:"tahini"},
+          {amount:"2", item:"lemons, juiced"},
+          {amount:"2", item:"garlic cloves"},
+          {amount:"1 tsp", item:"salt"},
+          {amount:"olive oil, paprika, cumin", item:"to finish"},
+          {amount:"warm flatbread", item:"to serve"}
+        ],
+        instructions: [
+          "Boil the soaked chickpeas with bicarbonate until very soft, about 1 hour; reserve a few whole.",
+          "Blend the warm chickpeas with garlic and salt until smooth.",
+          "Add tahini and lemon juice and blend, loosening with iced water until pale and fluffy.",
+          "Taste and adjust lemon and salt.",
+          "Spread on a plate with a swirl, pooling olive oil in the centre.",
+          "Dust with paprika and cumin, scatter reserved chickpeas, and serve with flatbread."
+        ],
+        youtube: { search: "Hummus recipe authentic Levantine tahini", url: "https://www.youtube.com/results?search_query=Hummus+recipe+authentic+Levantine+tahini" }
+      },
+      main: {
+        name: "Mansaf",
+        description: "Jordan's national dish: lamb slow-cooked in fermented dried-yogurt jameed, served over rice and flatbread with nuts.",
+        servings: 8, prepTime: "30 min", cookTime: "2 hr 30 min",
+        ingredients: [
+          {amount:"1.5 kg", item:"lamb shoulder, on the bone"},
+          {amount:"500g", item:"jameed (dried yogurt) or 1 L thick yogurt"},
+          {amount:"500g", item:"basmati rice"},
+          {amount:"2", item:"shrak / markook flatbreads"},
+          {amount:"100g", item:"toasted almonds & pine nuts"},
+          {amount:"1 tsp", item:"ground cardamom"},
+          {amount:"1", item:"cinnamon stick"},
+          {amount:"2 tbsp", item:"ghee"},
+          {amount:"salt & pepper", item:"to taste"}
+        ],
+        instructions: [
+          "Simmer the lamb with cardamom and cinnamon until very tender, about 2 hours; skim well.",
+          "Dissolve the jameed in warm water (or whisk yogurt with cornflour to stop it splitting).",
+          "Add the jameed to the lamb and simmer gently, stirring one direction, until the sauce is creamy.",
+          "Cook the rice with a little ghee until fluffy.",
+          "Line a large platter with flatbread, top with rice, then the lamb.",
+          "Ladle over the hot jameed sauce and shower with toasted nuts."
+        ],
+        youtube: { search: "Mansaf Jordanian lamb jameed recipe authentic", url: "https://www.youtube.com/results?search_query=Mansaf+Jordanian+lamb+jameed+recipe" }
+      },
+      dessert: {
+        name: "Knafeh",
+        description: "Warm stretchy white cheese under a crisp orange semolina crust, drenched in rose-scented syrup.",
+        servings: 10, prepTime: "25 min", cookTime: "30 min",
+        ingredients: [
+          {amount:"400g", item:"kataifi (shredded pastry) or fine semolina"},
+          {amount:"200g", item:"butter, melted"},
+          {amount:"500g", item:"akkawi or mozzarella, soaked and sliced"},
+          {amount:"300g", item:"sugar"},
+          {amount:"200 ml", item:"water"},
+          {amount:"1 tbsp", item:"lemon juice"},
+          {amount:"1 tbsp", item:"rose or orange-blossom water"},
+          {amount:"orange food colour & crushed pistachios", item:"to finish"}
+        ],
+        instructions: [
+          "Make a syrup: simmer sugar, water and lemon, then add blossom water; cool.",
+          "Toss the shredded pastry with melted butter (and a touch of colour).",
+          "Press half into a buttered pan, layer the cheese, then top with the rest.",
+          "Bake at 200°C until deep golden and crisp, about 30 minutes.",
+          "Invert onto a platter while hot so the crust faces up.",
+          "Soak with the cool syrup and scatter with pistachios. Serve warm and stretchy."
+        ],
+        youtube: { search: "Knafeh recipe authentic cheese kunafa", url: "https://www.youtube.com/results?search_query=Knafeh+recipe+authentic+cheese+kunafa" }
+      }
+    }
+  },
+  {
+    id: "uzbekistan", name: "Uzbekistan", flag: "🇺🇿", confederation: "AFC",
+    intro: "Uzbek cuisine is Silk Road feasting — fragrant rice plov cooked in a cauldron, hearty lamb soups and lacquered honey sweets.",
+    menu: {
+      starter: {
+        name: "Shurpa (Lamb Soup)",
+        description: "A clear, hearty lamb and vegetable soup perfumed with cumin and fresh herbs.",
+        servings: 6, prepTime: "20 min", cookTime: "1 hr 30 min",
+        ingredients: [
+          {amount:"800g", item:"lamb on the bone, cut up"},
+          {amount:"2", item:"onions, sliced"},
+          {amount:"3", item:"carrots, chunked"},
+          {amount:"3", item:"potatoes, chunked"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"1", item:"bell pepper, sliced"},
+          {amount:"1 tsp", item:"cumin seeds"},
+          {amount:"2", item:"bay leaves"},
+          {amount:"coriander & dill", item:"to finish"}
+        ],
+        instructions: [
+          "Cover the lamb with cold water, bring to a boil and skim carefully.",
+          "Add onions, cumin and bay; simmer gently 1 hour.",
+          "Add carrots, then potatoes, tomato and pepper.",
+          "Cook until the meat is tender and the vegetables soft, about 30 minutes more.",
+          "Season the clear broth well.",
+          "Serve scattered with coriander and dill, with flatbread alongside."
+        ],
+        youtube: { search: "Shurpa Uzbek lamb soup recipe authentic", url: "https://www.youtube.com/results?search_query=Shurpa+Uzbek+lamb+soup+recipe" }
+      },
+      main: {
+        name: "Plov (Osh)",
+        description: "Uzbekistan's national dish: rice slow-cooked with lamb, caramelised carrots, cumin and whole garlic.",
+        servings: 8, prepTime: "30 min", cookTime: "1 hr 30 min",
+        ingredients: [
+          {amount:"600g", item:"lamb, cubed"},
+          {amount:"500g", item:"long-grain rice, rinsed"},
+          {amount:"500g", item:"carrots, julienned"},
+          {amount:"3", item:"onions, sliced"},
+          {amount:"2", item:"whole garlic bulbs"},
+          {amount:"150 ml", item:"oil or lamb fat"},
+          {amount:"1 tbsp", item:"cumin seeds"},
+          {amount:"1 tsp", item:"coriander seeds"},
+          {amount:"2 tsp", item:"salt"},
+          {amount:"1", item:"chilli (optional)"}
+        ],
+        instructions: [
+          "Heat the oil in a heavy cauldron (kazan) and brown the lamb.",
+          "Add onions and fry until golden, then the carrots; cook until softened.",
+          "Add cumin, coriander, salt and water to cover; simmer 30 minutes to make the zirvak base.",
+          "Spread the rinsed rice evenly on top and add hot water to just cover.",
+          "Nestle in the whole garlic bulbs, cover, and cook on low until the rice is tender and fluffy.",
+          "Mound onto a platter, meat and garlic on top; serve with pickled salad."
+        ],
+        youtube: { search: "Uzbek plov osh recipe authentic kazan", url: "https://www.youtube.com/results?search_query=Uzbek+plov+osh+recipe+authentic+kazan" }
+      },
+      dessert: {
+        name: "Chak-Chak",
+        description: "Crunchy fried dough sticks bound in hot honey syrup and pressed into a glossy golden mound.",
+        servings: 12, prepTime: "30 min", cookTime: "20 min",
+        ingredients: [
+          {amount:"300g", item:"plain flour"},
+          {amount:"3", item:"eggs"},
+          {amount:"1 tbsp", item:"sugar"},
+          {amount:"pinch", item:"salt"},
+          {amount:"oil", item:"for frying"},
+          {amount:"250g", item:"honey"},
+          {amount:"100g", item:"sugar (for syrup)"},
+          {amount:"2 tbsp", item:"water"}
+        ],
+        instructions: [
+          "Beat eggs with sugar and salt, work in the flour to a soft dough; rest 20 minutes.",
+          "Roll thin and cut into small matchsticks.",
+          "Deep-fry in batches until golden and crisp; drain.",
+          "Boil honey, sugar and water to a thick syrup (a drop should set firm).",
+          "Pour the hot syrup over the fried dough and toss quickly to coat.",
+          "Pile into a mound or dome, press lightly, cool to set, then cut to serve."
+        ],
+        youtube: { search: "Chak-chak Uzbek honey dessert recipe authentic", url: "https://www.youtube.com/results?search_query=Chak-chak+Uzbek+honey+dessert+recipe" }
       }
     }
   }

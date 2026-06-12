@@ -25,10 +25,6 @@ const WIKIPEDIA_TITLES = {
   netherlands_starter:   "Erwtensoep",
   netherlands_main:      "Stamppot",
   netherlands_dessert:   "Stroopwafel",
-  // Italy
-  italy_starter:         "Bruschetta",
-  italy_main:            "Ossobuco",
-  italy_dessert:         "Tiramisu",
   // Belgium
   belgium_starter:       "Moules-frites",
   belgium_main:          "Carbonnade flamande",
@@ -41,14 +37,6 @@ const WIKIPEDIA_TITLES = {
   turkey_starter:        "Mercimek çorbası",
   turkey_main:           "Adana kebabı",
   turkey_dessert:        "Baklava",
-  // Serbia
-  serbia_starter:        "Čorba",
-  serbia_main:           "Ćevapi",
-  serbia_dessert:        "Krempita",
-  // Poland
-  poland_starter:        "Żurek",
-  poland_main:           "Bigos",
-  poland_dessert:        "Makowiec",
   // Austria
   austria_starter:       "Leberknödelsuppe",
   austria_main:          "Wiener Schnitzel",
@@ -57,14 +45,6 @@ const WIKIPEDIA_TITLES = {
   scotland_starter:      "Cock-a-leekie",
   scotland_main:         "Haggis",
   scotland_dessert:      "Cranachan",
-  // Denmark
-  denmark_starter:       "Fish soup",
-  denmark_main:          "Frikadeller",
-  denmark_dessert:       "Æbleskiver",
-  // Hungary
-  hungary_starter:       "Gulyás",
-  hungary_main:          "Pörkölt",
-  hungary_dessert:       "Dobos torte",
   // Argentina
   argentina_starter:     "Empanada",
   argentina_main:        "Asado",
@@ -89,14 +69,6 @@ const WIKIPEDIA_TITLES = {
   paraguay_starter:      "Sopa paraguaya",
   paraguay_main:         "Chipa guasú",
   paraguay_dessert:      "Kivevé",
-  // Venezuela
-  venezuela_starter:     "Tequeño",
-  venezuela_main:        "Pabellón criollo",
-  venezuela_dessert:     "Quesillo (dessert)",
-  // Chile
-  chile_starter:         "Pan amasado",
-  chile_main:            "Cazuela",
-  chile_dessert:         "Leche asada",
   // USA
   usa_starter:           "Clam chowder",
   usa_main:              "Spare ribs",
@@ -113,14 +85,6 @@ const WIKIPEDIA_TITLES = {
   panama_starter:        "Ceviche",
   panama_main:           "Sancocho",
   panama_dessert:        "Arroz con leche",
-  // Costa Rica
-  "costa-rica_starter":  "Gallo pinto",
-  "costa-rica_main":     "Casado (food)",
-  "costa-rica_dessert":  "Tres leches cake",
-  // Jamaica
-  jamaica_starter:       "Ackee and saltfish",
-  jamaica_main:          "Jerk chicken",
-  jamaica_dessert:       "Black cake",
   // Morocco
   morocco_starter:       "Harira",
   morocco_main:          "Tajine",
@@ -129,10 +93,6 @@ const WIKIPEDIA_TITLES = {
   senegal_starter:       "Accara",
   senegal_main:          "Thiéboudienne",
   senegal_dessert:       "Thiakry",
-  // Nigeria
-  nigeria_starter:       "Nigerian pepper soup",
-  nigeria_main:          "Jollof rice",
-  nigeria_dessert:       "Puff-puff (food)",
   // Ivory Coast
   "ivory-coast_starter": "Kedjenou",
   "ivory-coast_main":    "Attiéké",
@@ -145,10 +105,6 @@ const WIKIPEDIA_TITLES = {
   "south-africa_starter":"Boerewors",
   "south-africa_main":   "Braai",
   "south-africa_dessert":"Melktert",
-  // Cameroon
-  cameroon_starter:      "Beignet",
-  cameroon_main:         "Ndolé",
-  cameroon_dessert:      "Beignet",
   // Tunisia
   tunisia_starter:       "Brik",
   tunisia_main:          "Couscous",
@@ -181,17 +137,60 @@ const WIKIPEDIA_TITLES = {
   qatar_starter:         "Tharid",
   qatar_main:            "Machboos",
   qatar_dessert:         "Balaleet",
-  // Indonesia
-  indonesia_starter:     "Gado-gado",
-  indonesia_main:        "Rendang",
-  indonesia_dessert:     "Cendol",
-  // China
-  china_starter:         "Hot and sour soup",
-  china_main:            "Peking duck",
-  china_dessert:         "Tanghulu",
   // New Zealand
   "new-zealand_starter": "Whitebait (food)",
   "new-zealand_main":    "Hāngī",
-  "new-zealand_dessert": "Pavlova (food)"
+  "new-zealand_dessert": "Pavlova (food)",
+  // Bosnia & Herzegovina
+  bosnia_starter:        "Begova čorba",
+  bosnia_main:           "Ćevapi",
+  bosnia_dessert:        "Tufahija",
+  // Czech Republic
+  czechia_starter:       "Kulajda",
+  czechia_main:          "Svíčková",
+  czechia_dessert:       "Knedlík",
+  // Norway
+  norway_starter:        "Fish soup",
+  norway_main:           "Fårikål",
+  norway_dessert:        "Krumkake",
+  // Sweden
+  sweden_starter:        "Toast Skagen",
+  sweden_main:           "Köttbullar",
+  sweden_dessert:        "Princess cake",
+  // Switzerland
+  switzerland_starter:   "Vegetable soup",
+  switzerland_main:      "Zürcher Geschnetzeltes",
+  switzerland_dessert:   "Basler Läckerli",
+  // Curaçao
+  curacao_starter:       "Pastechi",
+  curacao_main:          "Keshi yena",
+  curacao_dessert:       "Banana bread",
+  // Haiti
+  haiti_starter:         "Soup joumou",
+  haiti_main:            "Griot (food)",
+  haiti_dessert:         "Sweet potato pie",
+  // Cape Verde
+  "cape-verde_starter":  "Fish soup",
+  "cape-verde_main":     "Cachupa",
+  "cape-verde_dessert":  "Crème caramel",
+  // DR Congo
+  "dr-congo_starter":    "Cassava",
+  "dr-congo_main":       "Moambe chicken",
+  "dr-congo_dessert":    "Beignet",
+  // Ghana
+  ghana_starter:         "Kelewele",
+  ghana_main:            "Jollof rice",
+  ghana_dessert:         "Puff-puff",
+  // Iraq
+  iraq_starter:          "Lentil soup",
+  iraq_main:             "Masgouf",
+  iraq_dessert:          "Kleicha",
+  // Jordan
+  jordan_starter:        "Hummus",
+  jordan_main:           "Mansaf",
+  jordan_dessert:        "Kanafeh",
+  // Uzbekistan
+  uzbekistan_starter:    "Shurpa",
+  uzbekistan_main:       "Plov",
+  uzbekistan_dessert:    "Çäkçäk"
 };
-

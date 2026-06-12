@@ -82,6 +82,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "brazil", name: "Brazil", flag: "🇧🇷", confederation: "CONMEBOL",
     intro: "Brazilian food is bold, colourful and deeply rooted in African, Indigenous and Portuguese traditions.",
@@ -164,6 +165,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "uruguay", name: "Uruguay", flag: "🇺🇾", confederation: "CONMEBOL",
     intro: "Uruguayan food is the quiet cousin of Argentine cuisine — quality beef, mate culture and hearty stews.",
@@ -243,6 +245,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "colombia", name: "Colombia", flag: "🇨🇴", confederation: "CONMEBOL",
     intro: "Colombian cuisine is wonderfully diverse — from Andean potato soups to coastal ceviches and the legendary bandeja paisa.",
@@ -327,6 +330,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "ecuador", name: "Ecuador", flag: "🇪🇨", confederation: "CONMEBOL",
     intro: "Ecuadorian food is built on native Andean ingredients — potatoes, corn and quinoa — with bold aji pepper heat.",
@@ -409,6 +413,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "paraguay", name: "Paraguay", flag: "🇵🇾", confederation: "CONMEBOL",
     intro: "Paraguayan food is corn-centric and warming — from the unique baked corn bread called sopa paraguaya to grilled beef and pumpkin desserts.",
@@ -490,6 +495,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
 
   // ===== CONCACAF =====
   {
@@ -582,6 +588,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "canada", name: "Canada", flag: "🇨🇦", confederation: "CONCACAF",
     intro: "Canadian cuisine celebrates maple syrup, wild salmon, tourtière and the world's best poutine.",
@@ -662,6 +669,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "mexico", name: "Mexico", flag: "🇲🇽", confederation: "CONCACAF",
     intro: "Mexican cuisine is a UNESCO-recognised culinary heritage — complex moles, vibrant salsas and the world's best street food.",
@@ -753,6 +761,7 @@ const COUNTRIES_AMERICAS = [
       }
     }
   },
+
   {
     id: "panama", name: "Panama", flag: "🇵🇦", confederation: "CONCACAF",
     intro: "Panamanian food reflects its position as a crossroads — Caribbean spice, Latin comfort and fresh Pacific seafood.",
@@ -834,321 +843,166 @@ const COUNTRIES_AMERICAS = [
     }
   },
   {
-    id: "costa-rica", name: "Costa Rica", flag: "🇨🇷", confederation: "CONCACAF",
-    intro: "Costa Rican food (comida típica) is simple and deeply satisfying — rice, beans, fresh fruit and slow-cooked stews.",
+    id: "curacao", name: "Curaçao", flag: "🇨🇼", confederation: "CONCACAF",
+    intro: "Curaçaoan cooking is a Caribbean-Dutch-African mosaic — savoury stuffed cheese, fried pastries and island sweets.",
     menu: {
       starter: {
-        name: "Gallo Pinto",
-        description: "Costa Rica's beloved breakfast — rice and black beans fried together with Lizano sauce and coriander.",
-        servings: 4, prepTime: "10 min", cookTime: "15 min",
+        name: "Pastechi",
+        description: "Golden deep-fried pastry turnovers stuffed with spiced Gouda cheese — the island's favourite snack.",
+        servings: 12, prepTime: "40 min", cookTime: "15 min",
         ingredients: [
-          {amount:"2 cups", item:"cooked black beans (with some liquid)"},
-          {amount:"3 cups", item:"cooked white rice (day-old is best)"},
-          {amount:"½", item:"white onion, diced"},
-          {amount:"1", item:"red pepper, diced"},
-          {amount:"2 cloves", item:"garlic, minced"},
-          {amount:"3 tbsp", item:"Lizano sauce (or Worcestershire + a little sugar)"},
-          {amount:"handful", item:"fresh coriander, chopped"},
-          {amount:"2 tbsp", item:"vegetable oil"},
-          {amount:"to serve", item:"fried eggs, sour cream (natilla), fried plantain"}
-        ],
-        instructions: [
-          "Heat oil in a large frying pan. Sauté onion and pepper until softened, about 5 minutes.",
-          "Add garlic, cook 1 minute.",
-          "Add beans with a little of their liquid. Cook 3 minutes.",
-          "Add cold rice and Lizano sauce. Stir-fry on high heat, mixing everything together.",
-          "Cook until rice is hot and some grains are slightly crispy, about 5 minutes.",
-          "Stir in coriander. Serve with fried eggs, natilla and fried plantain."
-        ],
-        youtube: { search: "Gallo Pinto recipe Costa Rican authentic", url: "https://www.youtube.com/results?search_query=Gallo+Pinto+recipe+Costa+Rica+authentic" }
-      },
-      main: {
-        name: "Casado",
-        description: "Costa Rica's quintessential lunch — 'married plate' of rice, beans, plantain, salad and your choice of protein.",
-        servings: 4, prepTime: "20 min", cookTime: "30 min",
-        ingredients: [
-          {amount:"4 cups", item:"white rice, cooked"},
-          {amount:"2 cups", item:"black beans, cooked with garlic and cumin"},
-          {amount:"2", item:"ripe plantains (maduros), sliced and fried"},
-          {amount:"4", item:"chicken breasts, seasoned with salt and Lizano"},
-          {amount:"2", item:"tomatoes, sliced"},
-          {amount:"½ head", item:"iceberg lettuce, shredded"},
-          {amount:"1 tbsp", item:"white vinegar"},
-          {amount:"1 tbsp", item:"olive oil"},
-          {amount:"picadillo", item:"(diced cooked potato, carrot, onion, fresh herbs)"}
-        ],
-        instructions: [
-          "Pan-fry chicken breasts 6–7 minutes per side until cooked through. Rest and slice.",
-          "Fry plantain slices in oil until golden and caramelised on both sides.",
-          "Toss tomatoes and lettuce with vinegar, oil and salt.",
-          "Make simple picadillo: dice and cook potato and carrot with onion and herbs until tender.",
-          "Arrange everything on large plates: rice, beans, chicken, plantain, salad and picadillo.",
-          "Each component should be separate — the diner mixes as they eat."
-        ],
-        youtube: { search: "Casado recipe Costa Rican comida tipica", url: "https://www.youtube.com/results?search_query=Casado+recipe+Costa+Rican+comida+tipica" }
-      },
-      dessert: {
-        name: "Tres Leches con Cajeta",
-        description: "Costa Rica's version of the tres leches cake — soaked sponge with whipped cream and a drizzle of cajeta (goat's milk caramel).",
-        servings: 12, prepTime: "30 min + 4 hrs chilling", cookTime: "30 min",
-        ingredients: [
-          {amount:"6", item:"eggs, separated"},
-          {amount:"200g", item:"caster sugar"},
-          {amount:"200g", item:"plain flour"},
+          {amount:"400g", item:"plain flour"},
+          {amount:"100g", item:"butter, cold"},
+          {amount:"1", item:"egg"},
+          {amount:"120 ml", item:"milk"},
           {amount:"1 tsp", item:"baking powder"},
-          {amount:"1 tsp", item:"vanilla extract"},
-          {amount:"1 can", item:"sweetened condensed milk"},
-          {amount:"1 can", item:"evaporated milk"},
-          {amount:"200 ml", item:"single cream"},
-          {amount:"400 ml", item:"double cream"},
-          {amount:"cajeta", item:"(or dulce de leche) to drizzle"}
+          {amount:"250g", item:"young Gouda, grated"},
+          {amount:"1", item:"onion, finely chopped"},
+          {amount:"1 tsp", item:"sweet paprika"},
+          {amount:"oil", item:"for deep-frying"}
         ],
         instructions: [
-          "Beat egg yolks and sugar. Fold in flour and baking powder. Fold in stiff whites.",
-          "Bake in a 25×35 cm greased tin at 180°C for 25–30 minutes. Cool.",
-          "Mix condensed milk, evaporated milk and single cream. Prick cake and pour mixture over. Chill 4 hours.",
-          "Whip double cream to stiff peaks. Spread over soaked cake.",
-          "Drizzle generously with cajeta.",
-          "Chill until ready to serve. Cut into squares."
+          "Rub butter into flour and baking powder. Add egg and milk, knead to a smooth dough and rest 30 minutes.",
+          "Mix grated Gouda with onion and paprika for the filling.",
+          "Roll the dough thin and cut into circles.",
+          "Spoon filling on one half, fold over and crimp the edges with a fork.",
+          "Deep-fry at 180°C until puffed and deep golden.",
+          "Drain on paper and eat warm."
         ],
-        youtube: { search: "Tres Leches cake recipe Latin American authentic", url: "https://www.youtube.com/results?search_query=Tres+Leches+cake+recipe+authentic" }
+        youtube: { search: "Pastechi Curacao cheese pastry recipe authentic", url: "https://www.youtube.com/results?search_query=Pastechi+Curacao+cheese+pastry+recipe" }
+      },
+      main: {
+        name: "Keshi Yena",
+        description: "The national dish: a whole Edam cheese shell baked around spiced chicken with raisins, olives and capers.",
+        servings: 6, prepTime: "30 min", cookTime: "45 min",
+        ingredients: [
+          {amount:"1", item:"whole Edam cheese (hollowed) or 500g sliced Edam"},
+          {amount:"600g", item:"chicken thighs, shredded"},
+          {amount:"1", item:"onion, chopped"},
+          {amount:"1", item:"bell pepper, diced"},
+          {amount:"2", item:"tomatoes, chopped"},
+          {amount:"3 tbsp", item:"raisins"},
+          {amount:"3 tbsp", item:"green olives, sliced"},
+          {amount:"1 tbsp", item:"capers"},
+          {amount:"1 tsp", item:"piccalilli or mustard"},
+          {amount:"2", item:"eggs, beaten"}
+        ],
+        instructions: [
+          "Simmer chicken until tender, then shred.",
+          "Sauté onion, pepper and tomato. Add chicken, raisins, olives, capers and piccalilli; cook to a thick stew.",
+          "Bind the filling with beaten egg off the heat.",
+          "Line a buttered bowl or dish with cheese slices, leaving overhang.",
+          "Fill with the chicken mixture and fold the cheese over the top.",
+          "Bake at 180°C for 25–30 minutes until the cheese melts and sets. Turn out to serve."
+        ],
+        youtube: { search: "Keshi Yena Curacao stuffed cheese recipe authentic", url: "https://www.youtube.com/results?search_query=Keshi+Yena+Curacao+stuffed+cheese+recipe" }
+      },
+      dessert: {
+        name: "Bolo di Banana (Banana Cake)",
+        description: "A moist island banana cake spiced with cinnamon and nutmeg, rich with butter and brown sugar.",
+        servings: 10, prepTime: "20 min", cookTime: "50 min",
+        ingredients: [
+          {amount:"4", item:"very ripe bananas, mashed"},
+          {amount:"200g", item:"butter, softened"},
+          {amount:"200g", item:"brown sugar"},
+          {amount:"3", item:"eggs"},
+          {amount:"300g", item:"plain flour"},
+          {amount:"2 tsp", item:"baking powder"},
+          {amount:"1 tsp", item:"ground cinnamon"},
+          {amount:"½ tsp", item:"grated nutmeg"},
+          {amount:"1 tsp", item:"vanilla"}
+        ],
+        instructions: [
+          "Cream butter and brown sugar until fluffy.",
+          "Beat in the eggs one at a time, then the vanilla.",
+          "Fold in the mashed banana.",
+          "Sift in flour, baking powder, cinnamon and nutmeg; fold to a smooth batter.",
+          "Pour into a lined loaf tin and bake at 175°C for about 50 minutes.",
+          "Cool before slicing — it's even better the next day."
+        ],
+        youtube: { search: "Bolo di banana Curacao banana cake recipe", url: "https://www.youtube.com/results?search_query=Bolo+di+banana+Curacao+banana+cake+recipe" }
       }
     }
   },
   {
-    id: "jamaica", name: "Jamaica", flag: "🇯🇲", confederation: "CONCACAF",
-    intro: "Jamaican cuisine is bold, fragrant and fiery — Scotch bonnet heat, allspice smoke, and the legendary jerk tradition.",
+    id: "haiti", name: "Haiti", flag: "🇭🇹", confederation: "CONCACAF",
+    intro: "Haitian cuisine is bold and proud — the freedom soup of independence, citrus-marinated fried pork and silky sweet-potato puddings.",
     menu: {
       starter: {
-        name: "Ackee & Saltfish",
-        description: "Jamaica's national dish — delicate ackee fruit scrambled with flaked saltfish, peppers and Scotch bonnet.",
-        servings: 4, prepTime: "20 min + soaking overnight", cookTime: "20 min",
+        name: "Soup Joumou",
+        description: "The UNESCO-listed freedom soup: a golden squash soup with beef, pasta and vegetables, eaten on Independence Day.",
+        servings: 8, prepTime: "30 min", cookTime: "1 hr 30 min",
         ingredients: [
-          {amount:"400g", item:"salt cod, soaked overnight in water (changed twice)"},
-          {amount:"2 cans (540g)", item:"ackee fruit, drained (or 12 fresh ackees, parboiled)"},
-          {amount:"1", item:"white onion, sliced"},
-          {amount:"1", item:"Scotch bonnet pepper, seeded and finely sliced"},
-          {amount:"1", item:"green and 1 red pepper, sliced"},
-          {amount:"3 cloves", item:"garlic, sliced"},
-          {amount:"3 sprigs", item:"fresh thyme"},
-          {amount:"2 tbsp", item:"vegetable oil"},
-          {amount:"2", item:"spring onions, sliced"},
-          {amount:"to serve", item:"boiled green banana, fried dumplings or hard dough bread"}
+          {amount:"1 kg", item:"giraumon or butternut squash, peeled"},
+          {amount:"500g", item:"beef, cubed, marinated in epis"},
+          {amount:"2", item:"carrots, sliced"},
+          {amount:"2", item:"potatoes, diced"},
+          {amount:"1", item:"turnip, diced"},
+          {amount:"100g", item:"cabbage, shredded"},
+          {amount:"100g", item:"rigatoni or vermicelli"},
+          {amount:"1", item:"onion, sliced"},
+          {amount:"2", item:"limes, juiced"},
+          {amount:"1", item:"Scotch bonnet (whole), thyme, cloves"}
         ],
         instructions: [
-          "Boil soaked saltfish 15 minutes. Drain, cool and flake, removing all bones.",
-          "Heat oil in a wide pan. Sauté onion, peppers, garlic and thyme 5 minutes.",
-          "Add flaked saltfish and cook 3 minutes.",
-          "Add ackee very gently — it breaks easily. Fold together carefully.",
-          "Season with black pepper (the saltfish provides all the salt needed).",
-          "Scatter spring onions. Serve with fried dumplings or boiled green banana."
+          "Marinate the beef in epis (Haitian herb paste) and lime; brown in a heavy pot.",
+          "Boil the squash separately until soft, then blend smooth and add to the pot with water.",
+          "Add carrots, potatoes, turnip and onion; simmer until the beef is tender.",
+          "Stir in cabbage, thyme, cloves and a whole Scotch bonnet (don't burst it).",
+          "Add the pasta and cook until just tender; the soup should be rich and golden.",
+          "Finish with lime and adjust salt. Serve hot with bread."
         ],
-        youtube: { search: "Ackee saltfish recipe authentic Jamaican national dish", url: "https://www.youtube.com/results?search_query=Ackee+saltfish+recipe+authentic+Jamaican" }
+        youtube: { search: "Soup Joumou Haitian pumpkin soup recipe authentic", url: "https://www.youtube.com/results?search_query=Soup+Joumou+Haitian+pumpkin+soup+recipe" }
       },
       main: {
-        name: "Jerk Chicken with Rice & Peas",
-        description: "Deeply marinated chicken grilled over pimento wood with the essential Scotch bonnet and allspice.",
-        servings: 4, prepTime: "30 min + overnight marinating", cookTime: "40 min",
+        name: "Griot with Pikliz",
+        description: "Citrus-marinated pork shoulder braised then fried crisp, served with fiery pickled-cabbage pikliz.",
+        servings: 6, prepTime: "30 min + overnight marinating", cookTime: "1 hr 30 min",
         ingredients: [
-          {amount:"1.5 kg", item:"chicken pieces (thighs and drumsticks)"},
-          {amount:"jerk marinade:", item:"4 Scotch bonnets, 6 spring onions, 4 cloves garlic, 2 tbsp allspice berries, 1 tbsp dried thyme, 2 tbsp soy sauce, 2 tbsp brown sugar, 1 tbsp cider vinegar, 2 tbsp vegetable oil, ½ tsp cinnamon, ½ tsp nutmeg, salt"},
-          {amount:"400g", item:"long-grain rice"},
-          {amount:"1 can (400 ml)", item:"coconut milk"},
-          {amount:"1 can", item:"kidney beans, drained"},
-          {amount:"4 spring onions", item:"for rice"},
-          {amount:"2 sprigs", item:"fresh thyme"},
-          {amount:"400 ml", item:"water"}
+          {amount:"1.2 kg", item:"pork shoulder, cubed"},
+          {amount:"2", item:"limes / sour oranges, juiced"},
+          {amount:"1", item:"onion, sliced"},
+          {amount:"4", item:"garlic cloves"},
+          {amount:"2 tbsp", item:"epis (herb paste)"},
+          {amount:"1", item:"Scotch bonnet"},
+          {amount:"oil", item:"for frying"},
+          {amount:"pikliz", item:"— shredded cabbage, carrot, chilli, vinegar"},
+          {amount:"fried plantains", item:"to serve"}
         ],
         instructions: [
-          "Blend all jerk marinade ingredients to a thick paste. Score chicken deeply. Coat all over. Marinate overnight.",
-          "For rice and peas: combine rice, coconut milk, water, beans, spring onions, thyme and salt. Bring to a boil.",
-          "Cover rice tightly, cook on very low heat 20 minutes. Do not lift lid.",
-          "Grill chicken over medium-high heat (or barbecue if possible) for 30–40 minutes, turning occasionally, until charred and cooked through.",
-          "Baste with any remaining marinade during cooking.",
-          "Serve jerk chicken with rice and peas and a side of festival (fried sweet dumplings) if desired."
+          "Marinate the pork overnight with citrus, onion, garlic, epis and Scotch bonnet.",
+          "Simmer the pork in its marinade with a little water until tender, about 1 hour.",
+          "Lift out the pork and reduce the braising liquid; reserve.",
+          "Fry the pork in hot oil until deeply browned and crisp at the edges.",
+          "Make pikliz ahead: pack cabbage, carrot and chilli in vinegar and let it pickle.",
+          "Serve the griot with pikliz, fried plantains and the reduced sauce."
         ],
-        youtube: { search: "authentic Jamaican jerk chicken recipe Scotch bonnet", url: "https://www.youtube.com/results?search_query=authentic+Jamaican+jerk+chicken+recipe" }
+        youtube: { search: "Griot Haitian fried pork pikliz recipe authentic", url: "https://www.youtube.com/results?search_query=Griot+Haitian+fried+pork+pikliz+recipe" }
       },
       dessert: {
-        name: "Jamaican Rum Cake",
-        description: "A dense, dark fruit cake soaked in rum and browning — the centrepiece of every Jamaican celebration.",
-        servings: 16, prepTime: "40 min + soaking fruit overnight", cookTime: "2 hrs",
+        name: "Pen Patat (Sweet Potato Pudding)",
+        description: "A dense, spiced sweet-potato and banana pudding baked with coconut milk, cinnamon and rum.",
+        servings: 10, prepTime: "25 min", cookTime: "1 hr 15 min",
         ingredients: [
-          {amount:"500g", item:"mixed dried fruit (raisins, currants, prunes, cherries)"},
-          {amount:"300 ml", item:"dark Jamaican rum"},
-          {amount:"200g", item:"unsalted butter"},
-          {amount:"200g", item:"dark brown sugar"},
-          {amount:"4", item:"eggs"},
-          {amount:"200g", item:"plain flour"},
-          {amount:"1 tsp", item:"mixed spice"},
-          {amount:"1 tsp", item:"vanilla extract"},
-          {amount:"2 tbsp", item:"browning sauce"},
-          {amount:"extra rum", item:"for soaking after baking"}
+          {amount:"1 kg", item:"sweet potato, grated"},
+          {amount:"2", item:"ripe bananas, mashed"},
+          {amount:"400 ml", item:"coconut milk"},
+          {amount:"150g", item:"brown sugar"},
+          {amount:"60g", item:"butter, melted"},
+          {amount:"1 tsp", item:"ground cinnamon"},
+          {amount:"½ tsp", item:"grated nutmeg"},
+          {amount:"2 tbsp", item:"dark rum"},
+          {amount:"3 tbsp", item:"raisins"}
         ],
         instructions: [
-          "Soak dried fruit in rum overnight (or at least 4 hours).",
-          "Blend soaked fruit mixture to a chunky purée.",
-          "Cream butter and sugar until fluffy. Beat in eggs one at a time.",
-          "Fold in flour, mixed spice, vanilla and browning sauce.",
-          "Fold in fruit purée.",
-          "Pour into a greased, lined 23 cm tin. Bake at 160°C for 1.5–2 hours.",
-          "While warm, poke holes all over and pour 2–4 tbsp extra rum over the top. Repeat after each day for up to a week."
+          "Mix grated sweet potato with mashed banana.",
+          "Stir in coconut milk, sugar, melted butter, spices, rum and raisins.",
+          "Pour into a buttered baking dish.",
+          "Bake at 180°C for about 1 hour 15 minutes until set and caramelised on top.",
+          "Cool until firm enough to slice.",
+          "Serve in squares, warm or at room temperature."
         ],
-        youtube: { search: "Jamaican rum cake recipe authentic black cake", url: "https://www.youtube.com/results?search_query=Jamaican+rum+cake+recipe+authentic+black+cake" }
-      }
-    }
-  },
-  // ===== extra CONMEBOL teams =====
-  {
-    id: "venezuela", name: "Venezuela", flag: "🇻🇪", confederation: "CONMEBOL",
-    intro: "Venezuelan cuisine is built on corn masa — arepas, hallacas and pabellón criollo tell the story of a diverse nation.",
-    menu: {
-      starter: {
-        name: "Tequeños",
-        description: "Deep-fried cheese-stuffed bread dough sticks — Venezuela's most irresistible party snack.",
-        servings: 24, prepTime: "30 min + 30 min resting", cookTime: "15 min",
-        ingredients: [
-          {amount:"500g", item:"plain flour"},
-          {amount:"150g", item:"cold butter, cubed"},
-          {amount:"2", item:"eggs"},
-          {amount:"100 ml", item:"cold water"},
-          {amount:"1 tsp", item:"salt"},
-          {amount:"1 tsp", item:"sugar"},
-          {amount:"400g", item:"queso blanco or firm mozzarella, cut into 10cm sticks"},
-          {amount:"oil", item:"for deep frying"}
-        ],
-        instructions: [
-          "Rub butter into flour with salt and sugar until crumbly.",
-          "Add eggs and water, bring together into a dough. Rest 30 minutes.",
-          "Roll dough into long ropes about 1.5 cm thick.",
-          "Wrap each rope spirally around a cheese stick, pressing firmly to seal ends.",
-          "Fry in oil at 175°C for 4–5 minutes until golden on all sides.",
-          "Drain on paper towels. Serve immediately — the cheese inside must be molten."
-        ],
-        youtube: { search: "Tequeños recipe Venezuelan cheese sticks authentic", url: "https://www.youtube.com/results?search_query=Tequeños+recipe+Venezuelan+cheese+sticks" }
-      },
-      main: {
-        name: "Pabellón Criollo",
-        description: "Venezuela's national dish — four elements on one plate: shredded beef, black beans, white rice and fried plantain.",
-        servings: 4, prepTime: "30 min", cookTime: "1.5 hrs",
-        ingredients: [
-          {amount:"600g", item:"beef flank steak"},
-          {amount:"2 cans", item:"black beans"},
-          {amount:"2 cups", item:"white long-grain rice, cooked"},
-          {amount:"2", item:"ripe plantains, sliced and fried (tajadas)"},
-          {amount:"sofrito:", item:"1 onion, 1 red pepper, 4 garlic cloves, 2 tomatoes — all diced and cooked in oil"},
-          {amount:"1 tsp", item:"cumin"},
-          {amount:"salt, pepper", item:"to taste"}
-        ],
-        instructions: [
-          "Boil beef in salted water with onion and garlic for 1 hour until tender. Shred finely.",
-          "Sauté half the sofrito, add shredded beef and cumin. Cook together 5 minutes. Season.",
-          "For beans: cook remaining sofrito, add beans with liquid, simmer 15 minutes. Season.",
-          "Fry plantain slices in oil until golden and caramelised on both sides.",
-          "Arrange all four components on each plate, keeping them separate.",
-          "Serve with a wedge of queso blanco if available."
-        ],
-        youtube: { search: "Pabellón Criollo recipe Venezuelan national dish", url: "https://www.youtube.com/results?search_query=Pabellón+Criollo+recipe+Venezuelan" }
-      },
-      dessert: {
-        name: "Quesillo (Venezuelan Flan)",
-        description: "Venezuela's version of flan — a denser, richer custard with characteristic holes, served turned out with caramel.",
-        servings: 8, prepTime: "15 min", cookTime: "1 hr",
-        ingredients: [
-          {amount:"1 can (397g)", item:"sweetened condensed milk"},
-          {amount:"1 can (400 ml)", item:"evaporated milk"},
-          {amount:"5", item:"whole eggs"},
-          {amount:"2 tsp", item:"vanilla extract"},
-          {amount:"150g", item:"caster sugar (for caramel)"},
-          {amount:"3 tbsp", item:"water (for caramel)"}
-        ],
-        instructions: [
-          "Make caramel: boil sugar and water without stirring until amber. Pour into a 20 cm round cake tin. Tilt to coat base.",
-          "Blend condensed milk, evaporated milk, eggs and vanilla until completely smooth.",
-          "Pour over set caramel in the tin.",
-          "Place tin in a roasting pan. Pour boiling water in to halfway.",
-          "Bake at 160°C for 55–65 minutes until set with a slight wobble in the centre.",
-          "Cool completely. Refrigerate 4 hours. Run a knife around the edge, invert onto a plate with a lip to catch the caramel sauce."
-        ],
-        youtube: { search: "Quesillo recipe Venezuelan flan authentic caramel", url: "https://www.youtube.com/results?search_query=Quesillo+recipe+Venezuelan+flan" }
-      }
-    }
-  },
-  {
-    id: "chile", name: "Chile", flag: "🇨🇱", confederation: "CONMEBOL",
-    intro: "Chilean cuisine stretches from Pacific seafood in the north to hearty lamb stews in Patagonia.",
-    menu: {
-      starter: {
-        name: "Pan Amasado with Pebre",
-        description: "Soft hand-kneaded Chilean white bread rolls served with the national fresh herb condiment.",
-        servings: 6, prepTime: "30 min + 1 hr proving", cookTime: "20 min",
-        ingredients: [
-          {amount:"500g", item:"plain flour"},
-          {amount:"7g", item:"instant yeast"},
-          {amount:"1 tsp", item:"salt"},
-          {amount:"1 tbsp", item:"sugar"},
-          {amount:"2 tbsp", item:"lard or butter"},
-          {amount:"250 ml", item:"warm water"},
-          {amount:"pebre:", item:"1 bunch coriander, 4 spring onions, 2 cloves garlic, 2 tomatoes, 2 fresh chillies, 3 tbsp olive oil, 2 tbsp red wine vinegar, salt"}
-        ],
-        instructions: [
-          "Mix flour, yeast, salt and sugar. Rub in lard. Add warm water, knead 8 minutes.",
-          "Prove 1 hour. Knock back, divide into 10 rolls.",
-          "Place on a greased baking sheet. Prove 30 minutes.",
-          "Bake at 200°C for 15–18 minutes until golden. Cool slightly.",
-          "Make pebre: finely chop coriander, spring onion, garlic, tomatoes and chillies. Mix with oil and vinegar. Season.",
-          "Serve warm bread with generous bowl of pebre for dipping."
-        ],
-        youtube: { search: "Pan amasado recipe Chilean bread pebre", url: "https://www.youtube.com/results?search_query=Pan+amasado+recipe+Chilean+bread" }
-      },
-      main: {
-        name: "Cazuela de Vacuno",
-        description: "Chile's warming national stew — beef on the bone with pumpkin, corn, potatoes and green beans in a rich broth.",
-        servings: 6, prepTime: "20 min", cookTime: "1.5 hrs",
-        ingredients: [
-          {amount:"1.5 kg", item:"beef short ribs or chuck, bone-in"},
-          {amount:"300g", item:"pumpkin, peeled and chunked"},
-          {amount:"4", item:"potatoes, peeled and halved"},
-          {amount:"2", item:"corn on the cob, cut into rounds"},
-          {amount:"150g", item:"green beans"},
-          {amount:"1", item:"carrot, chunked"},
-          {amount:"1", item:"large onion, quartered"},
-          {amount:"2 L", item:"water"},
-          {amount:"1 tsp", item:"oregano"},
-          {amount:"salt and pepper", item:"to taste"},
-          {amount:"coriander", item:"fresh, to finish"}
-        ],
-        instructions: [
-          "Place beef, onion and water in a large pot. Bring to a boil, skim foam.",
-          "Add carrot, oregano and seasoning. Simmer 1 hour.",
-          "Add pumpkin and potatoes. Simmer 20 minutes.",
-          "Add corn and green beans. Simmer 15 more minutes.",
-          "Adjust seasoning. The broth should be clear and flavourful.",
-          "Serve in large deep bowls — broth first, then place beef and vegetables into the bowl. Finish with fresh coriander."
-        ],
-        youtube: { search: "Cazuela de vacuno recipe Chilean beef stew", url: "https://www.youtube.com/results?search_query=Cazuela+de+vacuno+recipe+Chilean+stew" }
-      },
-      dessert: {
-        name: "Leche Asada (Chilean Baked Custard)",
-        description: "A traditional baked vanilla custard with caramelised top — simpler than crème brûlée, completely satisfying.",
-        servings: 6, prepTime: "15 min", cookTime: "50 min",
-        ingredients: [
-          {amount:"1 L", item:"whole milk"},
-          {amount:"6", item:"eggs"},
-          {amount:"150g", item:"caster sugar"},
-          {amount:"1 tsp", item:"vanilla extract"},
-          {amount:"150g", item:"caster sugar + 3 tbsp water", item2:"for caramel"},
-          {amount:"ground cinnamon", item:"to serve"}
-        ],
-        instructions: [
-          "Make caramel: cook sugar and water until amber. Pour into 6 ramekins or one large dish.",
-          "Whisk eggs and sugar until well combined but not frothy.",
-          "Heat milk until just warm. Whisk into egg mixture with vanilla.",
-          "Strain and pour over caramel.",
-          "Place in a bain-marie (water bath) and bake at 160°C for 45–50 minutes until just set.",
-          "Cool then refrigerate 2 hours. Turn out onto plates, dusted with cinnamon."
-        ],
-        youtube: { search: "Leche asada recipe Chilean baked custard", url: "https://www.youtube.com/results?search_query=Leche+asada+recipe+Chilean+baked+custard" }
+        youtube: { search: "Pen Patat Haitian sweet potato pudding recipe", url: "https://www.youtube.com/results?search_query=Pen+Patat+Haitian+sweet+potato+pudding+recipe" }
       }
     }
   }
